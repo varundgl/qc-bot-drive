@@ -1,3 +1,4 @@
+```
 title: Recording QC Bot
 emoji: 🚀
 colorFrom: red
@@ -8,3 +9,4 @@ tags:
   - streamlit
 pinned: false
 short_description: QC Bot to do quality checks on recordings
+```
