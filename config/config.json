@@ -1,0 +1,12 @@
+{
+  "PATHS": {
+    "VIDEOS": "videos",
+    "AUDIOS": "audios",
+    "TRANSCRIPTS": "transcripts",
+    "REPORTS": "reports",
+    "MENTOR_MATERIALS": "mentor_materials"
+  },
+  "AZURE_OPENAI_ENDPOINT": "https://tst123451307193883.openai.azure.com/",
+  "AZURE_OPENAI_APIVERSION": "2025-01-01-preview",
+  "CHATGPT_MODEL": "gpt-4o-mini"
+}

@@ -1,0 +1,53 @@
+=== Slide 1 ===
+Agent SDK
+
+=== Slide 2 ===
+Agenda
+In this session, we'll discuss: Introduction to Agent SDK Key Components of Agent SDK Working of Agent SDK Use Cases of Agent SDK Benefits and Challenges of Agent SDK
+
+=== Slide 3 ===
+Introduction to Agent SDK
+
+=== Slide 4 ===
+Introduction to Agent SDK
+Toolkit for building autonomous AI agents Provides resources, tools, and libraries Helps create flexible and reusable AI systems Enables integration of goals, tools, and memory in agents
+What is Agent SDK?
+
+=== Slide 5 ===
+Key Components of Agent SDK
+
+=== Slide 6 ===
+Key Components of Agent SDK
+Goals
+Tools
+Memory
+Reasoning Loops
+
+=== Slide 7 ===
+Working of Agent SDK
+
+=== Slide 8 ===
+Working of Agent SDK
+Prompt
+Tool
+Action
+Result
+
+=== Slide 9 ===
+Use Cases of Agent SDK
+
+=== Slide 10 ===
+Benefits and Challenges of Agent SDK
+
+=== Slide 11 ===
+Benefits of using Agent SDK
+
+=== Slide 12 ===
+Challenges in using Agent SDK
+
+=== Slide 13 ===
+Summary
+Let's quickly recap: Agent SDK is a framework that helps create autonomous agents capable of performing tasks and interacting with external services. Key components include goals (objectives), memory (stores data), tools (external resources), and a reasoning loop (logic to decide actions). It allows agents to store information, interact with tools, and make decisions to achieve their goals autonomously. Agent SDK provides autonomy, modularity, and flexibility in task automation. Challenges include complex integration and debugging. Additionally, managing external resources can be difficult.
+
+=== Slide 14 ===
+Thank You

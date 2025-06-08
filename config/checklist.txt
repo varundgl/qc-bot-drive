@@ -1,0 +1,41 @@
+AO Checklist
+-------------
+
+1. Content Accuracy & Coverage:
+   a. Topic and Subtopic Coverage: Confirm that all planned topics and subtopics are mentioned and explained.
+   b. Logical and Sequential Explanation: Ensure concepts are introduced in a structured, progressive order.
+   c. Factual Accuracy: Verify all statements are technically correct without conceptual inaccuracies.
+   d. Use of Examples and Analogies: Check for relevant examples/analogies for complex concepts.
+
+2. Code Walkthrough & Demonstration (if applicable):
+   a. Clear Execution of Code Demos: Code demonstrations should be clearly explained through narration.
+   b. Complete Explanation of Code Components: Variables, functions, and logic blocks should be described.
+   c. Mention of Libraries/Tools: All libraries/frameworks used should be explicitly named and explained.
+   d. Output Validation: Expected code outputs should be described and discussed.
+   e. Demonstration Pacing: Hands-on activities should be taught at a followable pace.
+
+3. Speech Clarity & Language Quality:
+   a. Clear and Understandable Speech: Speech should be coherent and paced appropriately.
+   b. Minimized Use of Filler Words: Avoid frequent fillers like "umm", "uh", "hmm", "ah".
+   c. Pronunciation of Technical Terms: Technical terms should be pronounced clearly.
+   d. Professional Language: Language must be formal, academic, and respectful.
+   e. No Inappropriate/Biased Statements: Avoid insensitive or biased language.
+
+4. Alignment with Visual Content:
+   a. Narration Matches Slide Order: Spoken content should follow the slide sequence.
+
+5. Student Engagement Prompts:
+   a. Calls to Action or Pause for Reflection: Prompt learners to try things themselves.
+   b. Questions to Learners: Include rhetorical questions to engage learners.
+   c. Invites Feedback or Queries: Encourage questions through comments/forums.
+
+6. Session Structure & Flow:
+   a. Proper Opening/Greeting: Start with clear introduction setting context.
+   b. Clear Transitions Between Sections: Use verbal cues for topic shifts.
+
+7. Tone, Motivation & Inclusivity:
+   a. Encouraging and Positive Tone: Use motivational language.
+   b. Inclusive Language: Gender-neutral and inclusive of all backgrounds.
+
+8. Time Management Indicators:
+   a. Adherence to Time Markers: Actual pacing should match mentioned time estimates.

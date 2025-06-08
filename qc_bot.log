@@ -1,0 +1,238 @@
+2025-06-08 17:26:41,288 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:26:41,290 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:26:44,499 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:27:04,776 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:27:15,608 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:27:20,379 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:27:22,838 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:27:22,860 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-08 17:27:23,105 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 17:27:24,017 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-08 17:27:30,436 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-08 17:27:36,502 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-08 17:27:42,513 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-08 17:27:48,578 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-08 17:27:54,620 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-08 17:28:00,367 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-08 17:28:06,293 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-08 17:28:09,762 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 17:28:09,762 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-08 17:28:09,764 INFO src.preprocessing.download_manager: Downloaded: Use case of Agent SDK.mp4
+2025-06-08 17:28:09,764 INFO src.main_flow: Processing video: Use case of Agent SDK.mp4
+2025-06-08 17:28:13,704 INFO src.main_flow: Converted video to audio: audios\Use case of Agent SDK.wav
+2025-06-08 17:28:18,268 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 17:28:18,830 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 17:28:18,831 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 17:37:02,253 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:37:15,378 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:37:16,444 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:37:20,983 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:37:24,543 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:37:25,943 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:37:25,970 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf
+2025-06-08 17:37:26,192 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 17:37:27,055 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-08 17:37:34,060 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-08 17:37:41,520 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-08 17:37:48,595 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-08 17:37:54,638 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-08 17:38:29,171 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:38:50,946 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:38:54,122 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:38:58,463 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:39:04,578 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:39:06,168 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 17:39:06,193 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-08 17:39:06,425 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 17:39:07,316 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-08 17:39:13,427 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-08 17:39:19,466 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-08 17:39:25,895 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-08 17:39:31,921 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-08 17:39:37,980 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-08 17:39:43,722 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-08 17:39:49,857 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-08 17:39:53,573 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 17:39:53,574 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-08 17:39:53,575 INFO src.preprocessing.download_manager: Downloaded: Use case of Agent SDK.mp4
+2025-06-08 17:39:53,576 INFO src.main_flow: Processing video: Use case of Agent SDK.mp4
+2025-06-08 17:39:57,339 INFO src.main_flow: Converted video to audio: audios\Use case of Agent SDK.wav
+2025-06-08 17:40:05,307 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 17:40:05,813 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 17:40:05,814 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 17:49:38,100 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Use case of Agent SDK.txt
+2025-06-08 17:49:38,109 INFO src.main_flow: Generated transcript: transcripts\Use case of Agent SDK.txt
+2025-06-08 17:49:40,243 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Use case of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-08 17:49:41,240 INFO src.preprocessing.gdrive_manager: Deleted file 1OVvobHvzntShRprzt0L6OdW5eRFn2-xb from Drive
+2025-06-08 17:49:41,662 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-08 17:49:47,940 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-08 17:49:53,844 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-08 17:50:01,022 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-08 17:50:07,310 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-08 17:50:13,325 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-08 17:50:19,681 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-08 17:50:25,851 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-08 17:50:29,724 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 17:50:29,727 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-08 17:50:29,730 INFO src.preprocessing.download_manager: Downloaded: Use case of Agent SDK.mp4
+2025-06-08 17:50:29,731 INFO src.main_flow: Processing video: Use case of Agent SDK.mp4
+2025-06-08 17:50:35,469 INFO src.main_flow: Converted video to audio: audios\Use case of Agent SDK.wav
+2025-06-08 17:50:44,607 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 17:50:45,158 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 17:50:45,159 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 18:00:17,517 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Use case of Agent SDK.txt
+2025-06-08 18:00:17,522 INFO src.main_flow: Generated transcript: transcripts\Use case of Agent SDK.txt
+2025-06-08 18:00:19,461 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Use case of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-08 18:00:20,515 INFO src.preprocessing.gdrive_manager: Deleted file 1WIvxSHPx95N2bx4XFF4FIPtUnQhofasU from Drive
+2025-06-08 18:00:20,942 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-08 18:00:28,170 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-08 18:00:35,470 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-08 18:00:42,724 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-08 18:00:49,442 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-08 18:00:55,637 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-08 18:01:02,125 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-08 18:01:08,557 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-08 18:01:12,266 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 18:01:12,267 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-08 18:01:12,268 INFO src.preprocessing.download_manager: Downloaded: Use case of Agent SDK.mp4
+2025-06-08 18:01:12,269 INFO src.main_flow: Processing video: Use case of Agent SDK.mp4
+2025-06-08 18:01:16,407 INFO src.main_flow: Converted video to audio: audios\Use case of Agent SDK.wav
+2025-06-08 18:01:21,032 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 18:01:21,557 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 18:01:21,558 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 18:08:21,623 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:08:22,230 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:08:26,332 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:09:27,158 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:09:30,596 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:09:36,990 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:09:39,314 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:09:39,341 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-08 18:09:39,564 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:09:40,779 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-08 18:09:48,341 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-08 18:09:54,815 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-08 18:10:01,854 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-08 18:10:08,034 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-08 18:10:14,353 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-08 18:10:20,880 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-08 18:10:26,969 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-08 18:10:30,770 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 18:10:30,771 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-08 18:10:30,772 INFO src.main_flow: Downloaded: Use case of Agent SDK.mp4
+2025-06-08 18:10:34,935 INFO src.main_flow: Converted video to audio: audios\Use case of Agent SDK.wav
+2025-06-08 18:10:39,644 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 18:10:40,151 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 18:10:40,151 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 18:20:12,037 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Use case of Agent SDK.txt
+2025-06-08 18:20:12,262 INFO src.main_flow: Generated transcript: transcripts\Use case of Agent SDK.txt
+2025-06-08 18:20:14,382 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Use case of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-08 18:20:15,400 INFO src.preprocessing.gdrive_manager: Deleted file 1BMBHClP2MjbnQg-3jI0DldLo66plM5eU from Drive
+2025-06-08 18:20:15,409 INFO src.preprocessing.gdrive_manager: Downloading file 1cxXlHB38p3oBm1cEr4LWqyzMDQqRj3VJ to videos\Working of Agent SDK.mp4
+2025-06-08 18:20:22,045 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 18:20:22,046 INFO src.preprocessing.gdrive_manager: Download complete: videos\Working of Agent SDK.mp4
+2025-06-08 18:20:22,047 INFO src.main_flow: Downloaded: Working of Agent SDK.mp4
+2025-06-08 18:20:22,624 INFO src.main_flow: Converted video to audio: audios\Working of Agent SDK.wav
+2025-06-08 18:20:25,332 INFO src.preprocessing.gdrive_manager: Uploaded audios\Working of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 18:20:25,863 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 18:20:25,865 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1cxXlHB38p3oBm1cEr4LWqyzMDQqRj3VJ? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 18:20:57,038 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Working of Agent SDK.txt
+2025-06-08 18:20:57,433 INFO src.main_flow: Generated transcript: transcripts\Working of Agent SDK.txt
+2025-06-08 18:20:59,342 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Working of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-08 18:21:00,515 INFO src.preprocessing.gdrive_manager: Deleted file 1h87GpnkRFs8flu5PVticplmIFa2IXsTH from Drive
+2025-06-08 18:21:00,517 INFO src.preprocessing.gdrive_manager: Downloading file 1LeCsQBqZLrGFTOLzNCOV57RDO5nZWqfS to videos\Overview and Key Components of Agent SDK.mp4
+2025-06-08 18:21:10,786 INFO src.preprocessing.gdrive_manager: Download 77%
+2025-06-08 18:21:14,307 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 18:21:14,307 INFO src.preprocessing.gdrive_manager: Download complete: videos\Overview and Key Components of Agent SDK.mp4
+2025-06-08 18:21:14,308 INFO src.main_flow: Downloaded: Overview and Key Components of Agent SDK.mp4
+2025-06-08 18:21:15,609 INFO src.main_flow: Converted video to audio: audios\Overview and Key Components of Agent SDK.wav
+2025-06-08 18:21:18,413 INFO src.preprocessing.gdrive_manager: Uploaded audios\Overview and Key Components of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-08 18:21:18,942 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-08 18:21:18,943 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1LeCsQBqZLrGFTOLzNCOV57RDO5nZWqfS? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-08 18:23:10,783 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-08 18:23:10,804 INFO src.main_flow: Generated transcript: transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-08 18:23:13,212 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Overview and Key Components of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-08 18:23:14,602 INFO src.preprocessing.gdrive_manager: Deleted file 1SZZWmURjm3CCmUp4UKLsh_7KIdN8CYSS from Drive
+2025-06-08 18:23:15,609 INFO src.main_flow: Processing mentor materials...
+2025-06-08 18:23:15,678 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:23:19,895 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 18:23:19,982 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:23:22,500 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 18:23:24,506 INFO src.main_flow: Generating quality reports...
+2025-06-08 18:23:24,532 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-08 18:23:29,489 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:23:29,496 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-08 18:23:31,497 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-08 18:23:36,063 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:23:36,066 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-08 18:23:38,070 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-08 18:23:44,521 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:23:44,526 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-08 18:23:46,633 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:23:49,116 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:23:50,927 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:23:53,100 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:50:48,799 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:50:48,799 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:50:52,608 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:50:57,758 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:51:00,362 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:51:04,124 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:51:05,284 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:51:05,302 INFO src.main_flow: Processing mentor materials...
+2025-06-08 18:51:05,577 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:51:08,061 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 18:51:08,374 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:51:10,776 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 18:51:11,792 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-08 18:51:12,074 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:51:13,344 INFO src.main_flow: Transcript for Use case of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 18:51:13,345 INFO src.main_flow: Transcript for Working of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 18:51:13,346 INFO src.main_flow: Transcript for Overview and Key Components of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 18:51:15,413 INFO src.main_flow: Generating quality reports...
+2025-06-08 18:51:15,480 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-08 18:51:20,062 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:51:20,069 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-08 18:51:22,075 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-08 18:51:26,277 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:51:26,281 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-08 18:51:28,284 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-08 18:51:33,604 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:51:33,607 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-08 18:51:35,670 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:51:37,987 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:51:40,428 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:51:42,394 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:53:06,984 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:06,985 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:06,984 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:09,515 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:13,865 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:16,430 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:20,224 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:21,497 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 18:53:21,581 INFO src.main_flow: Processing mentor materials...
+2025-06-08 18:53:22,202 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:53:24,622 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 18:53:25,001 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:53:27,236 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 18:53:28,270 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-08 18:53:28,378 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:53:29,666 INFO src.main_flow: Transcript for Use case of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 18:53:29,668 INFO src.main_flow: Transcript for Working of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 18:53:29,668 INFO src.main_flow: Transcript for Overview and Key Components of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 18:53:31,675 INFO src.main_flow: Generating quality reports...
+2025-06-08 18:53:31,709 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-08 18:53:37,017 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:53:37,022 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-08 18:53:39,025 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-08 18:53:42,574 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:53:42,576 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-08 18:53:44,580 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-08 18:53:49,005 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-08 18:53:49,008 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-08 18:53:51,061 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 18:53:53,301 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:53:55,368 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:53:57,568 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-08 18:53:58,629 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0

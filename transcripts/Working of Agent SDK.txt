@@ -1,0 +1,3 @@
+start_time	end_time	speaker	transcript
+5.11	27.55	SPEAKER	next how does this agent SDK work that's more important to know first as i mentioned setting up a goal that is prompting once the agent receives the prompt it will decide what's the tool in need for example if i say please provide
+29.24	65.67	SPEAKER	a simple program in order to add two numbers in python programming language so tool will be a python program right so next action it will try to write the code on behalf and it will try to display on the output screen which terms to be the result as simple as that it's not having much complicated elements involved we will prompt it will decide the tool the action will taken and the result will be displayed this is a simple working of agent SDK
