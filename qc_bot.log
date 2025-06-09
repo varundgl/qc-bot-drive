@@ -688,3 +688,357 @@
 2025-06-09 17:32:51,785 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
 2025-06-09 17:32:53,736 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-09 17:32:54,935 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 21:59:37,446 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 21:59:44,591 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 21:59:44,815 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 21:59:44,832 INFO src.main_flow: Processing mentor materials...
+2025-06-09 21:59:46,068 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 21:59:47,287 INFO src.preprocessing.gdrive_manager: Downloading file 1nO5Dn77yGF1FXeTqUgxmn5VbUQIR6JJ_ to videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-09 21:59:53,464 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 21:59:53,466 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-09 22:00:00,750 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:00:01,671 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:00:01,673 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1nO5Dn77yGF1FXeTqUgxmn5VbUQIR6JJ_? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:02:02,530 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:02:04,147 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:02:05,394 INFO src.preprocessing.gdrive_manager: Deleted file 1A0sBJh8R3k97ODUq-AY7nJdpsHrYIr99 from Drive
+2025-06-09 22:02:06,404 INFO src.preprocessing.gdrive_manager: Downloading file 17miYBcysEVMeOGCdsum3CqFgkRgP7ohc to videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-09 22:02:13,538 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:02:13,540 INFO src.preprocessing.gdrive_manager: Download complete: videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-09 22:02:21,037 INFO src.preprocessing.gdrive_manager: Uploaded audios\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:02:21,766 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:02:21,767 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/17miYBcysEVMeOGCdsum3CqFgkRgP7ohc? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:03:49,917 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:03:52,600 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:03:53,668 INFO src.preprocessing.gdrive_manager: Deleted file 1LowLqIDU3nyscMpQ0iyUxjTo5-QPk-Rn from Drive
+2025-06-09 22:03:54,675 INFO src.preprocessing.gdrive_manager: Downloading file 16pV2Ss9XMDPFQMAW1XNAGQdNf8ZwWv3o to videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-09 22:04:02,948 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:04:02,949 INFO src.preprocessing.gdrive_manager: Download complete: videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-09 22:04:06,816 INFO src.preprocessing.gdrive_manager: Uploaded audios\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:04:07,710 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:04:07,711 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/16pV2Ss9XMDPFQMAW1XNAGQdNf8ZwWv3o? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:05:16,622 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:05:21,109 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:05:22,231 INFO src.preprocessing.gdrive_manager: Deleted file 1aNkpmC8KMpdSyeZ3msYNsufmsYEP_uBC from Drive
+2025-06-09 22:05:23,297 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:05:24,514 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:05:33,788 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:05:33,808 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:05:35,811 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-09 22:05:46,646 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:05:46,664 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:05:48,667 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-09 22:05:59,165 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:05:59,173 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:06:02,278 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:06:03,251 INFO src.preprocessing.gdrive_manager: Downloading file 1MoGS-FUuSU9tSxHiQcQYE7cQRl3CNCj1 to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 22:06:04,577 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:04,578 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 22:06:04,579 INFO src.preprocessing.gdrive_manager: Downloading file 1TNx_yBd50ljXszfqkkFrfExy9VqyRmEG to reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-09 22:06:05,830 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:05,831 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-09 22:06:05,833 INFO src.preprocessing.gdrive_manager: Downloading file 1hPXprSwOw9I8-5YWa-Xltkws33qMPNce to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-09 22:06:07,313 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:07,315 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-09 22:06:07,317 INFO src.preprocessing.gdrive_manager: Downloading file 1MVhaliJnl0JNfLerr8MZRrxTxJVJb4ZQ to reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-09 22:06:08,401 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:08,403 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-09 22:06:08,405 INFO src.preprocessing.gdrive_manager: Downloading file 15JWptjaPsot9X4VXXLAOn1tFbKGl5vnC to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-09 22:06:09,578 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:09,579 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-09 22:06:09,581 INFO src.preprocessing.gdrive_manager: Downloading file 1EQxCrTZU_oE_4YczcJsUTBZY1lbZEF2n to reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-09 22:06:10,745 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:10,746 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-09 22:06:10,750 INFO src.preprocessing.gdrive_manager: Downloading file 1q1uwnJJ5LlXX7t_NXFTtwRVweD65yO-R to reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-09 22:06:12,051 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:12,053 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-09 22:06:12,057 INFO src.preprocessing.gdrive_manager: Downloading file 16Pm8qYoqnu5V6BwBc3s4LU9LZEh1P5Ye to reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-09 22:06:13,298 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:13,302 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-09 22:06:13,312 INFO src.preprocessing.gdrive_manager: Downloading file 1W0J1Qn5XNy4xZgfV7XDKHiglK1t0pGOI to reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-09 22:06:14,576 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:06:14,577 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-09 22:10:23,015 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:10:28,970 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:10:29,211 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:10:29,239 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:10:30,459 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:10:33,059 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:10:34,066 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:10:45,775 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:10:45,787 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:10:47,789 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-09 22:10:57,623 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:10:57,626 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:10:59,628 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-09 22:11:09,387 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:11:09,392 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:11:12,594 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:12:49,602 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:12:55,556 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:12:55,784 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:12:55,799 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:12:56,984 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:12:59,154 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:13:02,113 INFO src.preprocessing.gdrive_manager: Downloading file 15flTuX7HBCwskG4Dm43apj7TjnCeoshi to transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:13:03,767 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:13:03,768 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:13:03,771 INFO src.preprocessing.gdrive_manager: Downloading file 13ERMTMKduqs1Ua-1Zl2Tp6ggweeKPNmt to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:13:09,779 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:13:09,780 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:13:09,783 INFO src.preprocessing.gdrive_manager: Downloading file 1E8NG0gl3RvZBHGlypbC3nkUrD1FFIYun to transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:13:11,622 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:13:11,623 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:13:11,666 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:13:24,996 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:13:25,006 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:13:27,010 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-09 22:13:41,018 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:13:41,025 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:13:43,026 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-09 22:13:52,773 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:13:52,782 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:13:55,952 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:13:57,074 INFO src.preprocessing.gdrive_manager: Downloading file 1MoGS-FUuSU9tSxHiQcQYE7cQRl3CNCj1 to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 22:14:00,314 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:00,316 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 22:14:00,318 INFO src.preprocessing.gdrive_manager: Downloading file 1TNx_yBd50ljXszfqkkFrfExy9VqyRmEG to reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-09 22:14:01,537 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:01,538 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-09 22:14:01,540 INFO src.preprocessing.gdrive_manager: Downloading file 1hPXprSwOw9I8-5YWa-Xltkws33qMPNce to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-09 22:14:03,130 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:03,132 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-09 22:14:03,135 INFO src.preprocessing.gdrive_manager: Downloading file 1MVhaliJnl0JNfLerr8MZRrxTxJVJb4ZQ to reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-09 22:14:04,232 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:04,235 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-09 22:14:04,238 INFO src.preprocessing.gdrive_manager: Downloading file 15JWptjaPsot9X4VXXLAOn1tFbKGl5vnC to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-09 22:14:05,766 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:05,767 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-09 22:14:05,771 INFO src.preprocessing.gdrive_manager: Downloading file 1EQxCrTZU_oE_4YczcJsUTBZY1lbZEF2n to reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-09 22:14:06,762 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:06,763 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-09 22:14:06,767 INFO src.preprocessing.gdrive_manager: Downloading file 1q1uwnJJ5LlXX7t_NXFTtwRVweD65yO-R to reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-09 22:14:09,533 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:09,535 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-09 22:14:09,537 INFO src.preprocessing.gdrive_manager: Downloading file 16Pm8qYoqnu5V6BwBc3s4LU9LZEh1P5Ye to reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-09 22:14:10,864 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:10,866 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-09 22:14:10,868 INFO src.preprocessing.gdrive_manager: Downloading file 1W0J1Qn5XNy4xZgfV7XDKHiglK1t0pGOI to reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-09 22:14:12,183 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:14:12,186 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-09 22:17:26,186 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:17:40,890 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:17:56,235 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:17:56,467 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:17:56,486 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:17:57,706 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:18:00,670 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:18:03,715 INFO src.preprocessing.gdrive_manager: Downloading file 15flTuX7HBCwskG4Dm43apj7TjnCeoshi to transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:18:06,510 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:18:06,515 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:18:06,524 INFO src.preprocessing.gdrive_manager: Downloading file 13ERMTMKduqs1Ua-1Zl2Tp6ggweeKPNmt to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:18:07,772 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:18:07,773 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:18:07,777 INFO src.preprocessing.gdrive_manager: Downloading file 1E8NG0gl3RvZBHGlypbC3nkUrD1FFIYun to transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:18:08,861 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:18:08,863 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:18:09,144 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:18:09,150 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:18:18,014 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:18:18,024 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:20:54,005 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:20:54,008 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:20:54,012 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:21:01,435 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:21:01,662 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:21:01,690 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:21:02,940 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:21:06,189 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:21:07,610 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:21:07,617 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:28:24,595 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:28:37,192 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:28:37,425 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:28:37,452 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:28:38,672 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:28:41,043 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:28:42,690 INFO src.preprocessing.gdrive_manager: Downloading file 15flTuX7HBCwskG4Dm43apj7TjnCeoshi to transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:28:44,838 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:28:44,849 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:28:44,852 INFO src.preprocessing.gdrive_manager: Downloading file 13ERMTMKduqs1Ua-1Zl2Tp6ggweeKPNmt to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:28:45,957 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:28:45,960 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:28:45,962 INFO src.preprocessing.gdrive_manager: Downloading file 1E8NG0gl3RvZBHGlypbC3nkUrD1FFIYun to transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:28:47,056 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:28:47,057 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:28:47,370 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:28:47,377 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:33:11,880 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:33:11,882 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:33:18,232 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:33:18,463 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:33:18,488 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:33:19,705 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:33:21,974 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:33:24,920 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:33:24,926 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:33:24,926 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:33:24,927 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-09 22:33:24,928 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:33:35,033 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:33:35,042 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:33:35,045 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:36:00,650 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:36:00,652 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:36:07,200 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:36:07,440 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:36:07,466 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:36:08,687 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:36:10,751 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:36:12,310 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:36:12,315 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-09 22:36:12,316 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:36:12,317 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-09 22:36:12,319 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:36:23,469 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:36:23,475 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:36:23,478 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:36:26,168 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:36:26,170 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-09 22:36:28,172 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-09 22:36:28,173 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:36:28,175 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-09 22:36:28,176 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:36:36,402 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:36:36,406 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:36:36,412 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:36:39,179 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:36:39,179 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-09 22:36:41,181 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-09 22:36:41,182 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:36:41,183 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-09 22:36:41,184 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:36:51,658 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:36:51,661 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:36:51,665 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:36:53,916 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:36:53,917 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-09 22:36:57,145 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:41:06,655 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:41:12,603 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:41:12,823 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:41:12,849 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:41:14,078 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:41:15,904 INFO src.preprocessing.gdrive_manager: Downloading file 1pqeRvBg44OVbVRp_Hzb5IrGwwD7-QvYq to videos\Introduction to Agent SDK - Summary.mp4
+2025-06-09 22:41:35,012 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:41:35,012 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Summary.mp4
+2025-06-09 22:41:57,413 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:05,353 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:05,652 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:21,871 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:27,956 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:31,200 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:34,540 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:40,615 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:45,631 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:47,649 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 22:42:47,665 INFO src.main_flow: Processing mentor materials...
+2025-06-09 22:42:47,994 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:42:51,864 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 22:42:52,172 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:42:54,627 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 22:42:55,841 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:42:58,536 INFO src.preprocessing.gdrive_manager: Downloading file 1pqeRvBg44OVbVRp_Hzb5IrGwwD7-QvYq to videos\Introduction to Agent SDK - Summary.mp4
+2025-06-09 22:43:10,400 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:43:10,401 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Summary.mp4
+2025-06-09 22:43:15,658 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Agent SDK - Summary.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:43:16,241 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:43:16,242 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1pqeRvBg44OVbVRp_Hzb5IrGwwD7-QvYq? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:44:16,501 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Introduction to Agent SDK - Summary.txt
+2025-06-09 22:44:18,829 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Agent SDK - Summary.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:44:20,424 INFO src.preprocessing.gdrive_manager: Deleted file 1aRQqfQnWtcWCHRzk6ubw23k7oawXhQuc from Drive
+2025-06-09 22:44:21,429 INFO src.preprocessing.gdrive_manager: Downloading file 1cnYYsc0nnrx7rAR1A91cB5RbRS0G-gMr to videos\Working of Agent SDK.mp4
+2025-06-09 22:44:29,782 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:44:29,783 INFO src.preprocessing.gdrive_manager: Download complete: videos\Working of Agent SDK.mp4
+2025-06-09 22:44:34,322 INFO src.preprocessing.gdrive_manager: Uploaded audios\Working of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:44:34,921 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:44:34,922 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1cnYYsc0nnrx7rAR1A91cB5RbRS0G-gMr? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:45:06,474 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Working of Agent SDK.txt
+2025-06-09 22:45:09,776 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Working of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:45:11,183 INFO src.preprocessing.gdrive_manager: Deleted file 1nutL41a__Pk-2UB8OupC2ZM2-VAUUHxO from Drive
+2025-06-09 22:45:12,192 INFO src.preprocessing.gdrive_manager: Downloading file 1AZ5f89D-5o8vgHMUtS6GHrXrmqlBs2q8 to videos\Introduction to Agent SDK - Agenda.mp4
+2025-06-09 22:45:21,574 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:45:21,574 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Agenda.mp4
+2025-06-09 22:45:24,286 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Agent SDK - Agenda.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:45:25,013 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:45:25,014 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1AZ5f89D-5o8vgHMUtS6GHrXrmqlBs2q8? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:45:59,065 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Introduction to Agent SDK - Agenda.txt
+2025-06-09 22:46:02,592 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Agent SDK - Agenda.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:46:03,772 INFO src.preprocessing.gdrive_manager: Deleted file 1NQXkvMoEptkMZsDPJnQVBSyaWy5CFMoP from Drive
+2025-06-09 22:46:04,778 INFO src.preprocessing.gdrive_manager: Downloading file 1yi0hVzMcgPIRA1mEohF5tvB02RftqHuE to videos\Overview and Key Components of Agent SDK.mp4
+2025-06-09 22:46:13,027 INFO src.preprocessing.gdrive_manager: Download 77%
+2025-06-09 22:46:17,441 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:46:17,442 INFO src.preprocessing.gdrive_manager: Download complete: videos\Overview and Key Components of Agent SDK.mp4
+2025-06-09 22:46:21,734 INFO src.preprocessing.gdrive_manager: Uploaded audios\Overview and Key Components of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:46:22,341 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:46:22,343 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1yi0hVzMcgPIRA1mEohF5tvB02RftqHuE? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:48:14,242 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-09 22:48:16,445 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Overview and Key Components of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:48:17,530 INFO src.preprocessing.gdrive_manager: Deleted file 1CFzL7rqW_ZKWkdosTmCrQGu1GuADfCRE from Drive
+2025-06-09 22:48:18,541 INFO src.preprocessing.gdrive_manager: Downloading file 1G4In_7DsAQT1x2gNGatUwQi6c-fX3DG_ to videos\Benefits and Challenges of Agent SDK.mp4
+2025-06-09 22:48:29,780 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 22:48:29,782 INFO src.preprocessing.gdrive_manager: Download complete: videos\Benefits and Challenges of Agent SDK.mp4
+2025-06-09 22:48:34,101 INFO src.preprocessing.gdrive_manager: Uploaded audios\Benefits and Challenges of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 22:48:34,746 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 22:48:34,748 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1G4In_7DsAQT1x2gNGatUwQi6c-fX3DG_? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 22:49:46,462 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Benefits and Challenges of Agent SDK.txt
+2025-06-09 22:49:49,842 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Benefits and Challenges of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 22:49:51,395 INFO src.preprocessing.gdrive_manager: Deleted file 1n2LU3lqQxdn5AMeG1FKXObfg2RIwoMot from Drive
+2025-06-09 22:49:52,614 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:49:53,871 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 22:49:53,877 INFO src.report_generation.report_generator: Generating report for: Benefits and Challenges of Agent SDK
+2025-06-09 22:49:53,878 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:49:53,879 INFO src.report_generation.report_generator: Transcript length: 1692
+2025-06-09 22:49:53,880 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:50:03,805 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:50:03,811 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:50:03,814 INFO src.report_generation.report_generator: Report saved to reports\report_Benefits and Challenges of Agent SDK.txt
+2025-06-09 22:50:06,249 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Benefits and Challenges of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:50:06,250 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Benefits and Challenges of Agent SDK.txt
+2025-06-09 22:50:08,251 INFO src.report_generation.report_generator: Generating report for: Introduction to Agent SDK - Agenda
+2025-06-09 22:50:08,252 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:50:08,252 INFO src.report_generation.report_generator: Transcript length: 847
+2025-06-09 22:50:08,253 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:50:16,000 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:50:16,003 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:50:16,014 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Agent SDK - Agenda.txt
+2025-06-09 22:50:18,349 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Agent SDK - Agenda.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:50:18,351 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Agent SDK - Agenda.txt
+2025-06-09 22:50:20,353 INFO src.report_generation.report_generator: Generating report for: Introduction to Agent SDK - Summary
+2025-06-09 22:50:20,354 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:50:20,355 INFO src.report_generation.report_generator: Transcript length: 1422
+2025-06-09 22:50:20,355 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:50:28,079 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:50:28,082 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:50:28,086 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Agent SDK - Summary.txt
+2025-06-09 22:50:31,168 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Agent SDK - Summary.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:50:31,170 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Agent SDK - Summary.txt
+2025-06-09 22:50:33,171 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-09 22:50:33,172 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:50:33,173 INFO src.report_generation.report_generator: Transcript length: 2461
+2025-06-09 22:50:33,174 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:50:43,135 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:50:43,137 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:50:43,139 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-09 22:50:45,342 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:50:45,344 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Overview and Key Components of Agent SDK.txt
+2025-06-09 22:50:47,346 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-09 22:50:47,348 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-09 22:50:47,349 INFO src.report_generation.report_generator: Transcript length: 757
+2025-06-09 22:50:47,350 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-09 22:51:03,779 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 22:51:03,781 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-09 22:51:03,783 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-09 22:51:07,910 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 22:51:07,912 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Working of Agent SDK.txt
+2025-06-09 22:51:10,974 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0

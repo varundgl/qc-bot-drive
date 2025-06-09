@@ -4,6 +4,7 @@ import glob
 import time
 import logging
 from typing import Dict
+from src.preprocessing.gdrive_manager import GoogleDriveManager  # Add this import if not present
 
 logger = logging.getLogger(__name__)
 
@@ -95,6 +96,9 @@ class ReportGenerator:
     """
 
         try:
+            logger.info("Calling Azure OpenAI API for quality check...")
+            logger.info(f"Transcript length: {len(transcript_content)}")
+            logger.info(f"Checklist length: {len(self.checklist)}")
             response = self.client.chat.completions.create(
                 model=self.deployment_name,
                 messages=[
@@ -110,22 +114,25 @@ class ReportGenerator:
                 top_p=0.9,
                 frequency_penalty=0.3  # Discourage repetition
             )
+            logger.info("Received response from Azure OpenAI API.")
             return response.choices[0].message.content.strip()
         except Exception as e:
             logger.error(f"Azure OpenAI error: {str(e)}")
             return f"Error in quality check: {str(e)}"
-    def generate_reports(self, transcript_path: str, mentor_materials_path: str, reports_dir: str):
-        # Create reports directory if not exists
+    def generate_reports(self, transcript_path: str, mentor_materials_path: str, reports_dir: str, drive_folder_id: str, only_base_names=None):
         os.makedirs(reports_dir, exist_ok=True)
         
         # Get all transcript files
         video_transcripts = []
         for file_path in glob.glob(os.path.join(transcript_path, "*.txt")):
+            base_name = os.path.splitext(os.path.basename(file_path))[0]
+            if only_base_names and base_name not in only_base_names:
+                continue
             with open(file_path, 'r', encoding='utf-8') as f:
                 video_transcripts.append({
                     "path": file_path,
                     "content": f.read(),
-                    "base_name": os.path.splitext(os.path.basename(file_path))[0]
+                    "base_name": base_name
                 })
 
         if not video_transcripts:
@@ -138,6 +145,9 @@ class ReportGenerator:
             base_name = os.path.splitext(os.path.basename(file_path))[0]
             with open(file_path, 'r', encoding='utf-8') as f:
                 mentor_contents[base_name] = f.read()
+
+        # Prepare Drive manager for report uploads
+        gdrive = GoogleDriveManager()
 
         # Generate reports
         for video in video_transcripts:
@@ -161,6 +171,19 @@ class ReportGenerator:
             report_file = os.path.join(reports_dir, f"report_{base_name}.txt")
             with open(report_file, 'w', encoding='utf-8') as f:
                 f.write(report)
-                
             logger.info(f"Report saved to {report_file}")
+
+            # --- Ensure no duplicate in Drive: delete if exists, then upload ---
+            # drive_folder_id is now passed as an argument
+
+            # Find and delete duplicate in Drive
+            drive_file_id = gdrive.find_file_by_name(drive_folder_id, f"report_{base_name}.txt")
+            if drive_file_id:
+                gdrive.delete_file(drive_file_id)
+                logger.info(f"Deleted duplicate report in Drive: report_{base_name}.txt")
+
+            # Upload new report
+            gdrive.upload_file(report_file, drive_folder_id, "text/plain")
+            logger.info(f"Uploaded report to Drive: report_{base_name}.txt")
+
             time.sleep(2)  # Avoid rate limiting

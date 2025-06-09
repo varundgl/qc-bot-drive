@@ -121,38 +121,122 @@ with st.expander("⚙️ Configuration", expanded=True):
 if st.session_state.processing:
     status_area = st.empty()
     progress_bar = st.progress(0)
-    
-    # Processing steps
-    steps = [
-        "Downloading videos from Google Drive",
-        "Processing mentor materials",
-        "Generating transcripts",
-        "Creating quality reports"
-    ]
-    
-    for i, step in enumerate(steps):
-        progress = int((i + 1) * 25)
-        status_area.info(f"⏳ **Step {i+1}/4**: {step}")
-        progress_bar.progress(progress)
-        try:
-            if i == 0:
-                # Process mentor materials FIRST
-                main_flow.process_mentor_materials(mentor_files)
-            elif i == 1:
-                # Download and process videos
-                asyncio.run(main_flow.process_drive_url(drive_url))
-            elif i == 2:
-                # Transcripts generated automatically
+
+    # Step 1: Process mentor materials
+    status_area.info("⏳ Step 1/4: Processing mentor materials...")
+    try:
+        main_flow.process_mentor_materials(mentor_files)
+    except Exception as e:
+        status_area.error(f"❌ Error in step 1: {str(e)}")
+        st.session_state.processing = False
+        st.stop()
+    progress_bar.progress(25)
+    time.sleep(1)
+
+    # Step 2: Download and process videos
+    status_area.info("⏳ Step 2/4: Downloading and processing videos...")
+    from src.preprocessing.download_manager import GoogleDriveDownloader
+    download_manager = GoogleDriveDownloader(main_flow.paths["VIDEOS"], main_flow.drive_folders)
+    gdrive = download_manager.gdrive
+    video_files = download_manager.list_all_videos(drive_url)
+    total_videos = len(video_files)
+
+    # Get all transcript files in Drive Transcripts folder
+    transcript_drive_files = gdrive.list_txt_files(main_flow.drive_folders["TRANSCRIPTS"])
+    transcript_names = {os.path.splitext(f['name'])[0] for f in transcript_drive_files}
+
+    processed_videos = []
+    for idx, video in enumerate(video_files, 1):
+        base_name = os.path.splitext(video['name'])[0]
+        if base_name in transcript_names:
+            status_area.info(f"✅ Transcript for video {idx}/{total_videos} ({video['name']}) already exists in Drive. Skipping processing.")
+            processed_videos.append(base_name)
+            continue
+
+        status_area.info(f"🎬 Processing video {idx}/{total_videos}: {video['name']}")
+        st.write(f"- Downloading video...")
+        local_video_path = os.path.join(main_flow.paths["VIDEOS"], video['name'])
+        gdrive.download_file(video['id'], local_video_path)
+        st.write(f"- Converting to audio...")
+        audio_path = os.path.join(main_flow.paths["AUDIOS"], f"{base_name}.wav")
+        from src.preprocessing.video_processor import VideoProcessor
+        video_processor = VideoProcessor()
+        if video_processor.convert_mp4_to_wav(local_video_path, audio_path):
+            st.write(f"- Uploading audio to Drive...")
+            download_manager.upload_to_drive(audio_path, "AUDIOS", "audio/wav")
+            st.write(f"- Deleting video from Drive and local...")
+            try:
+                download_manager.delete_drive_file(video['id'])
+            except Exception:
                 pass
-            elif i == 3:
-                # Generate reports
-                main_flow.generate_quality_reports()
-        except Exception as e:
-            status_area.error(f"❌ Error in step {i+1}: {str(e)}")
-            st.session_state.processing = False
-            st.stop()
-        time.sleep(1)  # Simulate processing time
-    
+            try:
+                os.remove(local_video_path)
+            except Exception:
+                pass
+            st.write(f"- Generating transcript...")
+            from src.preprocessing.transcript_generator import TranscriptGenerator
+            transcript_generator = TranscriptGenerator(
+                os.getenv("AZURE_SPEECH_KEY"),
+                os.getenv("AZURE_SPEECH_REGION")
+            )
+            transcript_path = os.path.join(main_flow.paths["TRANSCRIPTS"], f"{base_name}.txt")
+            if transcript_generator.transcribe_audio(audio_path, transcript_path):
+                st.write(f"- Uploading transcript to Drive...")
+                download_manager.upload_to_drive(transcript_path, "TRANSCRIPTS", "text/plain")
+                st.write(f"- Deleting audio from Drive and local...")
+                audio_drive_id = gdrive.find_file_by_name(main_flow.drive_folders["AUDIOS"], f"{base_name}.wav")
+                if audio_drive_id:
+                    try:
+                        download_manager.delete_drive_file(audio_drive_id)
+                    except Exception:
+                        pass
+                try:
+                    os.remove(audio_path)
+                except Exception:
+                    pass
+                processed_videos.append(base_name)
+            else:
+                st.write(f"❌ Failed to generate transcript for {video['name']}")
+        else:
+            st.write(f"❌ Failed to convert video: {video['name']}")
+        progress_bar.progress(25 + int(50 * idx / total_videos))
+        time.sleep(1)
+
+    # Step 3: Generate reports only for matching transcripts
+    status_area.info("⏳ Step 3/4: Generating quality reports...")
+    from src.preprocessing.gdrive_manager import GoogleDriveManager
+    gdrive = GoogleDriveManager()
+    transcript_drive_files = gdrive.list_txt_files(main_flow.drive_folders["TRANSCRIPTS"])
+    # Only transcripts that match processed_videos
+    matching_transcripts = [f for f in transcript_drive_files if os.path.splitext(f['name'])[0] in processed_videos]
+
+    # Download only matching transcripts
+    for file in matching_transcripts:
+        local_path = os.path.join(main_flow.paths["TRANSCRIPTS"], file["name"])
+        if not os.path.exists(local_path):
+            gdrive.download_file(file["id"], local_path)
+
+    # Generate reports for only matching transcripts
+    from src.report_generation.openai_client import OpenAIClient
+    from src.report_generation.report_generator import ReportGenerator
+    with open("config/checklist.txt", "r") as f:
+        checklist = f.read()
+    openai_client = OpenAIClient("config/config.json")
+    client = openai_client.get_client()
+    deployment = openai_client.get_deployment()
+    report_generator = ReportGenerator(client, deployment, checklist)
+
+    # Only pass the matching transcript files to the report generator
+    report_generator.generate_reports(
+        main_flow.paths["TRANSCRIPTS"],
+        main_flow.paths["MENTOR_MATERIALS"],
+        main_flow.paths["REPORTS"],
+        main_flow.drive_folders["REPORTS"],  # Pass the Drive folder ID directly
+        only_base_names=processed_videos
+    )
+    progress_bar.progress(100)
+    time.sleep(1)
+
     status_area.success("✅ Processing completed!")
     st.session_state.processing = False
     st.session_state.reports_generated = True
@@ -176,7 +260,12 @@ if st.session_state.reports_generated:
     st.subheader("📋 Generated Reports")
     
     reports_dir = main_flow.paths["REPORTS"]
-    report_files = [f for f in os.listdir(reports_dir) if f.endswith(".txt")]
+    # Only show reports for processed_videos
+    report_files = [
+        f"report_{base_name}.txt"
+        for base_name in processed_videos
+        if os.path.exists(os.path.join(reports_dir, f"report_{base_name}.txt"))
+    ]
     
     if report_files:
         for report_file in report_files:
@@ -185,10 +274,7 @@ if st.session_state.reports_generated:
                     with open(os.path.join(reports_dir, report_file), "r", encoding="utf-8") as f:
                         report_content = f.read()
                     
-                    # Display report with formatting
                     st.markdown(report_content)
-                    
-                    # Download button
                     st.download_button(
                         label=f"Download {report_file}",
                         data=report_content,
