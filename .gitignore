@@ -1,0 +1,8 @@
+# Ignore environment files
+.env
+
+# Ignore video files
+*.mp4
+
+# Ignore audio files
+*.wav
