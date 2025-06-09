@@ -549,3 +549,142 @@
 2025-06-09 14:38:51,747 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-09 14:38:53,587 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-09 14:38:54,830 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 16:57:55,003 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:00,022 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:00,315 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:00,831 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:00,875 INFO src.main_flow: Processing mentor materials...
+2025-06-09 16:58:01,885 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-09 16:58:02,247 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 16:58:33,348 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:33,348 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:33,349 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:37,699 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:38,098 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 16:58:38,137 INFO src.main_flow: Processing mentor materials...
+2025-06-09 16:58:39,154 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-09 16:58:39,541 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 16:58:45,993 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:42,572 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:42,573 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:42,573 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:42,574 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:42,574 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:50,047 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:53,287 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:56,103 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:05:59,921 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:06:01,296 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:06:01,309 INFO src.main_flow: Processing mentor materials...
+2025-06-09 17:06:01,632 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:06:04,163 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 17:06:04,497 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:06:06,785 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 17:06:07,854 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-09 17:06:08,066 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:06:09,580 INFO src.preprocessing.gdrive_manager: Downloading file 1Z_IDZmHxbCylQ5prtqKxfiEL-IEfcg24 to videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-09 17:06:22,002 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 17:06:22,003 INFO src.preprocessing.gdrive_manager: Download complete: videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-09 17:06:22,006 INFO src.main_flow: Downloaded: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-09 17:06:27,678 INFO src.main_flow: Converted video to audio: audios\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.wav
+2025-06-09 17:06:33,081 INFO src.preprocessing.gdrive_manager: Uploaded audios\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 17:06:33,988 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 17:06:34,014 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1Z_IDZmHxbCylQ5prtqKxfiEL-IEfcg24? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 17:13:34,380 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:13:34,390 INFO src.main_flow: Generated transcript: transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:13:37,823 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 17:13:39,083 INFO src.preprocessing.gdrive_manager: Deleted file 14V5nCiUWats1Im1VlFgNNhNDnOHEYqlM from Drive
+2025-06-09 17:13:41,249 INFO src.main_flow: Generating quality reports...
+2025-06-09 17:13:41,335 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:13:43,403 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:13:44,641 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-09 17:13:52,550 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 17:13:52,560 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:13:54,836 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:13:57,255 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 17:13:58,553 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:26:12,297 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:12,298 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:12,299 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:19,795 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:20,027 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:20,075 INFO src.main_flow: Processing mentor materials...
+2025-06-09 17:26:21,108 INFO src.main_flow: Processing Google Drive folder: https://greatlearningcontent.app.box.com/s/wvtd8lk78oufmsvwbdnbu15zgj8i54dg
+2025-06-09 17:26:21,357 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:26:29,292 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:29,502 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:26:29,532 INFO src.main_flow: Processing mentor materials...
+2025-06-09 17:26:30,541 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-09 17:26:30,747 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:26:32,372 INFO src.main_flow: Transcript for Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV already exists in Drive. Skipping video.
+2025-06-09 17:26:34,379 INFO src.main_flow: Generating quality reports...
+2025-06-09 17:26:34,652 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:26:36,501 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:26:37,904 INFO src.preprocessing.gdrive_manager: Downloading file 1pp87IOn1njnQg3j1sR8QV4Tifs-X85nv to transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:26:39,023 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 17:26:39,040 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:26:39,129 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-09 17:26:49,820 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 17:26:49,828 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:26:51,871 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:26:54,566 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 17:26:55,627 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:27:05,500 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:27:05,587 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:30:19,799 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:25,951 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:26,747 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:30,467 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:33,612 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:38,577 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:39,941 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:30:39,961 INFO src.main_flow: Processing mentor materials...
+2025-06-09 17:30:40,273 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:30:42,508 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 17:30:42,933 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:30:45,738 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 17:30:46,747 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-09 17:30:46,972 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:30:48,309 INFO src.main_flow: Transcript for Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV already exists in Drive. Skipping video.
+2025-06-09 17:30:50,495 INFO src.main_flow: Generating quality reports...
+2025-06-09 17:30:50,737 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:30:52,161 INFO src.preprocessing.gdrive_manager: Deleted file 1zegoDFR6rY5E9Oe9oSD1Gf1siRXQPuk_ from Drive
+2025-06-09 17:30:52,162 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt (1zegoDFR6rY5E9Oe9oSD1Gf1siRXQPuk_)
+2025-06-09 17:30:53,931 INFO src.preprocessing.gdrive_manager: Deleted file 1oYQNHO3fFteyrMqNnc5pumaXv9qYLqna from Drive
+2025-06-09 17:30:53,933 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent_SDK_+_Google_SDK.txt (1oYQNHO3fFteyrMqNnc5pumaXv9qYLqna)
+2025-06-09 17:30:54,578 INFO src.preprocessing.gdrive_manager: Deleted file 1U-dN1GQiYncjg9cZ3YxJh92VIc6u4Ain from Drive
+2025-06-09 17:30:54,593 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent SDK_V1_24-04-25.txt (1U-dN1GQiYncjg9cZ3YxJh92VIc6u4Ain)
+2025-06-09 17:30:54,769 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:30:55,844 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-09 17:31:04,975 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 17:31:04,985 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:31:07,189 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:31:10,254 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 17:31:12,150 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:10,520 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:32:13,681 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:32:17,141 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:32:19,749 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:32:23,320 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:32:24,767 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 17:32:25,044 INFO src.main_flow: Processing mentor materials...
+2025-06-09 17:32:25,278 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:27,130 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 17:32:27,389 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:29,802 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 17:32:30,807 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-09 17:32:31,271 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:32,544 INFO src.main_flow: Transcript for Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV already exists in Drive. Skipping video.
+2025-06-09 17:32:34,552 INFO src.main_flow: Generating quality reports...
+2025-06-09 17:32:34,745 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:37,144 INFO src.preprocessing.gdrive_manager: Deleted file 1cPqjdjZ5996gZlqtRcw1sXjRWi-Cumpk from Drive
+2025-06-09 17:32:37,145 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent_SDK_+_Google_SDK.txt (1cPqjdjZ5996gZlqtRcw1sXjRWi-Cumpk)
+2025-06-09 17:32:37,777 INFO src.preprocessing.gdrive_manager: Deleted file 1iTMuj9iwAB7PRXmdU4XgE98wI-QLExRY from Drive
+2025-06-09 17:32:37,778 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent SDK_V1_24-04-25.txt (1iTMuj9iwAB7PRXmdU4XgE98wI-QLExRY)
+2025-06-09 17:32:37,946 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:39,051 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-09 17:32:49,584 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 17:32:49,588 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-09 17:32:51,785 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 17:32:53,736 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 17:32:54,935 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0

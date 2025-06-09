@@ -13,6 +13,7 @@ class ReportGenerator:
         self.deployment_name = deployment_name
         self.checklist = checklist
 
+    # Updated quality_check method with enhanced prompt
     def quality_check(self, transcript_content: str, material_type: str, material_content: str = None) -> str:
         material_context = ""
         if material_content:
@@ -22,52 +23,97 @@ class ReportGenerator:
                 material_context = f"\n### NOTEBOOK CONTENT ###\n{material_content}"
 
         user_input = f"""
-### VIDEO TRANSCRIPT ###
-{transcript_content}
-{material_context}
+    ### ROLE ###
+    You are a meticulous educational content quality inspector. Your task is to rigorously evaluate video transcripts against our quality checklist.
 
-### TASK ###
-Review using this checklist:
-{self.checklist}
+    ### EVALUATION MATERIALS ###
+    1. VIDEO TRANSCRIPT:
+    {transcript_content}
+    2. SUPPORTING MATERIALS:
+    {material_context if material_context else "N/A"}
 
-### INSTRUCTIONS ###
-1. For EACH checklist item:
-   - Respond using format: [✅/❌/N/A] [Brief explanation]
-2. After checklist, provide:
-   - "What Went Wrong:" (bullet points)
-   - "How to Improve:" (bullet points)
-3. Use ONLY this format:
+    ### QUALITY CHECKLIST ###
+    {self.checklist}
 
-### RESPONSE FORMAT ###
-1a: [✅/❌/N/A] [Explanation]
-...
-8b: [✅/❌/N/A] [Explanation]
+    ### CORE INSTRUCTIONS ###
+    1. ITEM-BY-ITEM ASSESSMENT:
+    - For EACH checklist sub-item (1a, 1b, etc.):
+        * ✅ = Fully meets criteria
+        * ❌ = Fails to meet criteria
+        * N/A = Not applicable to this content
+    - Provide CONCISE justifications:
+        * For ❌: State EXACTLY what's missing/wrong with specific evidence
+        * For ✅: Note key strengths that satisfy criteria
+        * For N/A: Explain why it doesn't apply
 
-What Went Wrong:
-- [Issue 1]
-- [Issue 2]
+    2. ISSUE ANALYSIS:
+    - "What Went Wrong":
+        * ONLY include ❌ items from checklist
+        * For EACH failure:
+            - Identify SPECIFIC failure points with timestamps/locations
+            - Explain CONSEQUENCES of the issue
+            - Cite RELEVANT evidence from materials
+        * Format: 
+        [Item ID]: [Failure description]
+            - Evidence: [Direct quote/reference]
+            - Impact: [Why this matters]
 
-How to Improve:
-- [Recommendation 1]
-- [Recommendation 2]
-"""
+    3. IMPROVEMENT RECOMMENDATIONS:
+    - "How to Improve":
+        * Provide ACTIONABLE solutions for EACH identified issue
+        * Solutions must be:
+            - Specific and measurable
+            - Directly address the root cause
+            - Include implementation examples where possible
+        * Format:
+        [Item ID]: [Solution]
+            - Implementation: [Concrete steps]
+            - Expected Outcome: [Quality improvement]
+
+    ### REQUIRED OUTPUT FORMAT ###
+    [Checklist Evaluation]
+    1a: [✅/❌/N/A] [Precise justification (25 words max)]
+    1b: [✅/❌/N/A] [Precise justification (25 words max)]
+    ...
+    8b: [✅/❌/N/A] [Precise justification (25 words max)]
+
+    What Went Wrong:
+    - 1b: Missing logical progression between concepts
+    Evidence: "First we discuss X... then suddenly jump to Z" (Transcript 2:15)
+    Impact: Learners lose conceptual thread
+    - 3c: Mispronounced technical terms
+    Evidence: "Pandas pronounced as /pændæs/ instead of /'pændæz/" (0:45, 1:30)
+    Impact: Reduces content credibility
+
+    How to Improve:
+    - 1b: Implement concept bridging
+    Implementation: Add transition statements - "Now that we understand X, let's see how it connects to Z..."
+    Outcome: Smoother learning progression
+    - 3c: Technical term pronunciation guide
+    Implementation: Create glossary with IPA transcriptions, practice before recording
+    Outcome: Professional delivery of technical content
+    """
 
         try:
             response = self.client.chat.completions.create(
                 model=self.deployment_name,
                 messages=[
-                    {"role": "system", "content": "You are an analytical quality assurance assistant."},
+                    {
+                        "role": "system", 
+                        "content": "You are an uncompromising quality assurance specialist with expertise in "
+                                "educational content evaluation. Be brutally honest and evidence-driven."
+                    },
                     {"role": "user", "content": user_input}
                 ],
-                temperature=0.2,
+                temperature=0.1,  # Lowered for more deterministic output
                 max_tokens=4096,
-                top_p=0.95
+                top_p=0.9,
+                frequency_penalty=0.3  # Discourage repetition
             )
             return response.choices[0].message.content.strip()
         except Exception as e:
             logger.error(f"Azure OpenAI error: {str(e)}")
             return f"Error in quality check: {str(e)}"
-
     def generate_reports(self, transcript_path: str, mentor_materials_path: str, reports_dir: str):
         # Create reports directory if not exists
         os.makedirs(reports_dir, exist_ok=True)
