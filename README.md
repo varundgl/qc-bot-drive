@@ -1,3 +1,11 @@
+---
+title: Recording Bot QC
+emoji: 🚀
+colorFrom: red
+colorTo: yellow
+sdk: streamlit
+sdk_version: 1.45.1
+---
 ```
 title: Recording QC Bot
 emoji: 🚀
