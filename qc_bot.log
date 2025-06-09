@@ -236,3 +236,263 @@
 2025-06-08 18:53:55,368 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-08 18:53:57,568 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-08 18:53:58,629 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:33:42,886 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:33:49,312 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:33:52,774 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:33:56,711 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:34:01,999 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:34:04,704 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:34:04,728 INFO src.main_flow: Processing mentor materials...
+2025-06-08 23:34:05,080 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:34:08,247 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:09,163 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:09,193 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:09,195 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:13,831 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:18,701 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:21,943 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:25,822 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:28,025 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-08 23:41:28,048 INFO src.main_flow: Processing mentor materials...
+2025-06-08 23:41:28,428 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:41:32,958 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 23:41:33,329 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:41:35,777 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-08 23:41:36,783 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf?usp=sharing
+2025-06-08 23:41:37,015 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:41:38,308 INFO src.main_flow: Transcript for Use case of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 23:41:38,309 INFO src.main_flow: Transcript for Working of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 23:41:38,310 INFO src.main_flow: Transcript for Overview and Key Components of Agent SDK already exists in Drive. Skipping video.
+2025-06-08 23:41:40,317 INFO src.main_flow: Generating quality reports...
+2025-06-08 23:41:40,363 ERROR src.report_generation.report_generator: No video transcripts found!
+2025-06-08 23:41:40,593 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:41:41,692 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-08 23:41:42,483 INFO src.preprocessing.gdrive_manager: Downloading file 18oxr5w0aTYOwLbyjKdj7P75QlINlodhi to reports\report_Working of Agent SDK.txt
+2025-06-08 23:41:43,916 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 23:41:43,917 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Working of Agent SDK.txt
+2025-06-08 23:41:43,918 INFO src.preprocessing.gdrive_manager: Downloading file 1zK3tOetA7wId4nPohoKJ-wEDbLRMXOYJ to reports\report_Use case of Agent SDK.txt
+2025-06-08 23:41:45,349 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 23:41:45,350 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Use case of Agent SDK.txt
+2025-06-08 23:41:45,352 INFO src.preprocessing.gdrive_manager: Downloading file 1bieu9ou3UZmzZ1XuKBR1c39ZCeF4CPBx to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-08 23:41:46,884 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-08 23:41:46,885 INFO src.preprocessing.gdrive_manager: Download complete: reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-09 13:43:29,757 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 5
+2025-06-09 13:43:29,759 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 6
+2025-06-09 13:43:29,760 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 7
+2025-06-09 13:43:29,761 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 8
+2025-06-09 13:43:29,762 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 9
+2025-06-09 13:43:29,763 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 10
+2025-06-09 13:43:29,763 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 11
+2025-06-09 13:43:29,765 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 12
+2025-06-09 13:43:29,766 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 13
+2025-06-09 13:43:29,768 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 14
+2025-06-09 13:43:29,769 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 15
+2025-06-09 13:43:29,772 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:43:36,256 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 5
+2025-06-09 13:43:36,257 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 6
+2025-06-09 13:43:36,259 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 7
+2025-06-09 13:43:36,260 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 8
+2025-06-09 13:43:36,261 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 9
+2025-06-09 13:43:36,264 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 10
+2025-06-09 13:43:36,266 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 11
+2025-06-09 13:43:36,268 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 12
+2025-06-09 13:43:36,269 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 13
+2025-06-09 13:43:36,271 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 14
+2025-06-09 13:43:36,272 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 15
+2025-06-09 13:43:36,276 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:43:40,233 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 5
+2025-06-09 13:43:40,236 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 6
+2025-06-09 13:43:40,238 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 7
+2025-06-09 13:43:40,239 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 8
+2025-06-09 13:43:40,241 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 9
+2025-06-09 13:43:40,242 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 10
+2025-06-09 13:43:40,243 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 11
+2025-06-09 13:43:40,246 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 12
+2025-06-09 13:43:40,248 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 13
+2025-06-09 13:43:40,249 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 14
+2025-06-09 13:43:40,251 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 15
+2025-06-09 13:43:40,253 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:43:43,780 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 5
+2025-06-09 13:43:43,782 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 6
+2025-06-09 13:43:43,783 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 7
+2025-06-09 13:43:43,785 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 8
+2025-06-09 13:43:43,786 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 9
+2025-06-09 13:43:43,788 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 10
+2025-06-09 13:43:43,790 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 11
+2025-06-09 13:43:43,791 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 12
+2025-06-09 13:43:43,792 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 13
+2025-06-09 13:43:43,795 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 14
+2025-06-09 13:43:43,796 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 15
+2025-06-09 13:43:43,798 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:43:48,745 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 5
+2025-06-09 13:43:48,747 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 6
+2025-06-09 13:43:48,748 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 7
+2025-06-09 13:43:48,749 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 8
+2025-06-09 13:43:48,750 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 9
+2025-06-09 13:43:48,752 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 10
+2025-06-09 13:43:48,753 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 11
+2025-06-09 13:43:48,755 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 12
+2025-06-09 13:43:48,757 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 13
+2025-06-09 13:43:48,759 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 14
+2025-06-09 13:43:48,761 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 15
+2025-06-09 13:43:48,763 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:43:50,819 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 5
+2025-06-09 13:43:50,822 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 6
+2025-06-09 13:43:50,823 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 7
+2025-06-09 13:43:50,825 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 8
+2025-06-09 13:43:50,826 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 9
+2025-06-09 13:43:50,828 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 10
+2025-06-09 13:43:50,830 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 11
+2025-06-09 13:43:50,831 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 12
+2025-06-09 13:43:50,832 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 13
+2025-06-09 13:43:50,834 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 14
+2025-06-09 13:43:50,836 WARNING dotenv.main: Python-dotenv could not parse statement starting at line 15
+2025-06-09 13:43:50,837 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:43:50,870 INFO src.main_flow: Processing mentor materials...
+2025-06-09 13:48:09,297 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:09,299 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:13,297 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:17,252 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:20,682 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:26,397 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:28,069 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:48:28,087 INFO src.main_flow: Processing mentor materials...
+2025-06-09 13:51:03,938 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:03,939 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:03,940 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:08,048 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:13,281 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:17,191 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:21,075 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:22,365 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:51:22,393 INFO src.main_flow: Processing mentor materials...
+2025-06-09 13:51:22,736 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:52:59,619 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:52:59,620 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:53:02,402 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:53:15,165 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:53:18,140 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:53:21,551 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:53:23,137 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:53:23,162 INFO src.main_flow: Processing mentor materials...
+2025-06-09 13:53:23,494 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:53:25,756 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 13:53:26,097 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:53:28,317 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 13:53:29,323 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf
+2025-06-09 13:53:29,534 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:54:34,673 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:34,675 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:34,676 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:38,655 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:41,888 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:44,954 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:49,766 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:51,452 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 13:54:51,477 INFO src.main_flow: Processing mentor materials...
+2025-06-09 13:54:51,702 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:54:54,535 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 13:54:54,648 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:54:57,199 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 13:54:58,204 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf
+2025-06-09 13:54:58,276 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 13:54:59,656 INFO src.preprocessing.gdrive_manager: Downloading file 1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR to videos\Use case of Agent SDK.mp4
+2025-06-09 13:55:08,870 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-09 13:55:18,666 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-09 13:55:26,999 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-09 13:55:35,704 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-09 13:55:44,539 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-09 13:55:53,203 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-09 13:56:02,359 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-09 13:56:06,634 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 13:56:06,635 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-09 13:56:06,637 INFO src.main_flow: Downloaded: Use case of Agent SDK.mp4
+2025-06-09 13:56:13,594 INFO src.main_flow: Converted video to audio: audios\Use case of Agent SDK.wav
+2025-06-09 13:56:17,729 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 13:56:18,610 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 13:56:18,611 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1lmf1nOopxUxdJUWKd6Xq-OTAQdrWorIR? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 14:05:51,274 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Use case of Agent SDK.txt
+2025-06-09 14:05:51,507 INFO src.main_flow: Generated transcript: transcripts\Use case of Agent SDK.txt
+2025-06-09 14:05:53,554 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Use case of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 14:05:54,830 INFO src.preprocessing.gdrive_manager: Deleted file 1LkDU1YuLIjB5G0bKbTzcRM2G50Ekd9_5 from Drive
+2025-06-09 14:05:54,836 INFO src.preprocessing.gdrive_manager: Downloading file 1cxXlHB38p3oBm1cEr4LWqyzMDQqRj3VJ to videos\Working of Agent SDK.mp4
+2025-06-09 14:06:03,120 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 14:06:03,120 INFO src.preprocessing.gdrive_manager: Download complete: videos\Working of Agent SDK.mp4
+2025-06-09 14:06:03,121 INFO src.main_flow: Downloaded: Working of Agent SDK.mp4
+2025-06-09 14:06:03,489 INFO src.main_flow: Converted video to audio: audios\Working of Agent SDK.wav
+2025-06-09 14:06:05,628 INFO src.preprocessing.gdrive_manager: Uploaded audios\Working of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 14:06:06,157 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 14:06:06,157 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1cxXlHB38p3oBm1cEr4LWqyzMDQqRj3VJ? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 14:06:37,724 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Working of Agent SDK.txt
+2025-06-09 14:06:37,958 INFO src.main_flow: Generated transcript: transcripts\Working of Agent SDK.txt
+2025-06-09 14:06:41,131 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Working of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 14:06:42,426 INFO src.preprocessing.gdrive_manager: Deleted file 1sgkMlMIwtc3zaOC3KwWC8s6zv-Nc42AH from Drive
+2025-06-09 14:06:42,428 INFO src.preprocessing.gdrive_manager: Downloading file 1LeCsQBqZLrGFTOLzNCOV57RDO5nZWqfS to videos\Overview and Key Components of Agent SDK.mp4
+2025-06-09 14:06:51,686 INFO src.preprocessing.gdrive_manager: Download 77%
+2025-06-09 14:06:55,767 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 14:06:55,768 INFO src.preprocessing.gdrive_manager: Download complete: videos\Overview and Key Components of Agent SDK.mp4
+2025-06-09 14:06:55,769 INFO src.main_flow: Downloaded: Overview and Key Components of Agent SDK.mp4
+2025-06-09 14:06:56,646 INFO src.main_flow: Converted video to audio: audios\Overview and Key Components of Agent SDK.wav
+2025-06-09 14:07:00,873 INFO src.preprocessing.gdrive_manager: Uploaded audios\Overview and Key Components of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-09 14:07:01,450 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-09 14:07:01,459 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1LeCsQBqZLrGFTOLzNCOV57RDO5nZWqfS? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-09 14:08:52,942 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-09 14:08:53,177 INFO src.main_flow: Generated transcript: transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-09 14:08:55,299 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Overview and Key Components of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-09 14:08:56,508 INFO src.preprocessing.gdrive_manager: Deleted file 172IGwdjK7ss0p5Es1Iryq9NKpfugW8xl from Drive
+2025-06-09 14:08:58,512 INFO src.main_flow: Generating quality reports...
+2025-06-09 14:08:58,540 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-09 14:09:03,749 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:09:03,758 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-09 14:09:05,759 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-09 14:09:13,751 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:09:13,753 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-09 14:09:15,755 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-09 14:09:20,252 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:09:20,255 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-09 14:09:22,291 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:09:26,313 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:09:28,025 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:09:29,808 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:09:30,859 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:28:49,306 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:28:56,991 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:29:01,560 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:29:04,024 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:29:07,771 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:29:09,382 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:29:09,414 INFO src.main_flow: Processing mentor materials...
+2025-06-09 14:29:09,678 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:29:12,162 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 14:29:12,302 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:29:14,444 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 14:29:15,455 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf
+2025-06-09 14:29:15,769 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:29:17,117 INFO src.main_flow: Transcript for Use case of Agent SDK already exists in Drive. Skipping video.
+2025-06-09 14:29:17,120 INFO src.main_flow: Transcript for Working of Agent SDK already exists in Drive. Skipping video.
+2025-06-09 14:29:17,122 INFO src.main_flow: Transcript for Overview and Key Components of Agent SDK already exists in Drive. Skipping video.
+2025-06-09 14:29:19,128 INFO src.main_flow: Generating quality reports...
+2025-06-09 14:29:19,174 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:29:21,616 INFO src.preprocessing.gdrive_manager: Deleted file 1o2NzIS--OxJ_xBM9mVIfGbkH1p91ytCR from Drive
+2025-06-09 14:29:21,617 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent_SDK_+_Google_SDK.txt (1o2NzIS--OxJ_xBM9mVIfGbkH1p91ytCR)
+2025-06-09 14:29:22,338 INFO src.preprocessing.gdrive_manager: Deleted file 1oqltxUX7e2CiKjXFDBQ7nsAYzAznpjIc from Drive
+2025-06-09 14:29:22,339 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent SDK_V1_24-04-25.txt (1oqltxUX7e2CiKjXFDBQ7nsAYzAznpjIc)
+2025-06-09 14:29:23,084 INFO src.preprocessing.gdrive_manager: Deleted file 12dWkxHo33bJ9M_4-252Zsn2ZyunnyEB1 from Drive
+2025-06-09 14:29:23,087 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent_SDK_+_Google_SDK.txt (12dWkxHo33bJ9M_4-252Zsn2ZyunnyEB1)
+2025-06-09 14:29:23,871 INFO src.preprocessing.gdrive_manager: Deleted file 1W0_GdCBSG2dwTaeIVhx1yTIDhekZANL- from Drive
+2025-06-09 14:29:23,871 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent SDK_V1_24-04-25.txt (1W0_GdCBSG2dwTaeIVhx1yTIDhekZANL-)
+2025-06-09 14:29:23,906 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:29:24,632 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-09 14:29:28,878 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:29:28,883 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-09 14:29:30,888 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-09 14:29:37,114 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:29:37,117 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-09 14:29:39,119 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-09 14:29:44,286 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:29:44,290 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-09 14:29:46,406 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:29:52,774 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:29:54,884 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:29:56,703 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:29:57,899 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0

@@ -172,6 +172,20 @@ class MainFlow:
     def generate_quality_reports(self):
         """Generate quality reports"""
         logger.info("Generating quality reports...")
+        # Remove duplicates first
+        self.remove_drive_duplicates()
+
+        # List transcript files from Drive
+        gdrive = GoogleDriveManager()
+        transcript_drive_files = gdrive.list_txt_files(self.drive_folders["TRANSCRIPTS"])
+
+        # Download transcripts from Drive to local if not present
+        for file in transcript_drive_files:
+            local_path = os.path.join(self.paths["TRANSCRIPTS"], file["name"])
+            if not os.path.exists(local_path):
+                gdrive.download_file(file["id"], local_path)
+
+        # Now generate reports from these local files (which mirror Drive)
         # Load checklist
         with open("config/checklist.txt", "r") as f:
             checklist = f.read()
@@ -193,3 +207,8 @@ class MainFlow:
             if report_file.endswith(".txt"):
                 local_path = os.path.join(self.paths["REPORTS"], report_file)
                 gdrive.upload_file(local_path, self.drive_folders["REPORTS"], "text/plain")
+
+    def remove_drive_duplicates(self):
+        gdrive = GoogleDriveManager()
+        for key in ["REPORTS", "TRANSCRIPTS", "MENTOR_MATERIALS"]:
+            gdrive.remove_duplicates_by_name(self.drive_folders[key])

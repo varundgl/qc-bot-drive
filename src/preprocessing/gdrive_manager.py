@@ -1,6 +1,7 @@
 # src/gdrive_manager.py
 import os
 import io
+import json
 import logging
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
@@ -12,10 +13,19 @@ logger = logging.getLogger(__name__)
 class GoogleDriveManager:
     SCOPES = ['https://www.googleapis.com/auth/drive']
 
-    def __init__(self, credentials_file='credentials.json'):
-        creds = service_account.Credentials.from_service_account_file(
-            credentials_file, scopes=self.SCOPES
-        )
+    def __init__(self):
+        # Try to load full credentials from environment variable
+        gcp_credentials = os.getenv("GCP_CREDENTIALS")
+        if gcp_credentials:
+            cred_data = json.loads(gcp_credentials)
+            creds = service_account.Credentials.from_service_account_info(
+                cred_data, scopes=self.SCOPES
+            )
+        else:
+            # Fallback to file-based credentials
+            creds = service_account.Credentials.from_service_account_file(
+                "credentials.json", scopes=self.SCOPES
+            )
         self.service = build('drive', 'v3', credentials=creds)
 
     def get_folder_id(self, url):
@@ -91,3 +101,15 @@ class GoogleDriveManager:
             fields="files(id, name)"
         ).execute()
         return results.get('files', [])
+
+    def remove_duplicates_by_name(self, folder_id):
+        """Remove duplicate files (by name) in a Drive folder, keeping only the latest."""
+        files = self.list_txt_files(folder_id)
+        name_map = {}
+        for file in files:
+            if file['name'] not in name_map:
+                name_map[file['name']] = file
+            else:
+                # If duplicate, delete the older one (or you can keep the latest by timestamp if available)
+                self.delete_file(file['id'])
+                logger.info(f"Deleted duplicate file: {file['name']} ({file['id']})")

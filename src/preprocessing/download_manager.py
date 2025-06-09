@@ -2,15 +2,26 @@
 import os
 import logging
 from .gdrive_manager import GoogleDriveManager
+import json
+from google.oauth2 import service_account
 
 logger = logging.getLogger(__name__)
 
 class GoogleDriveDownloader:
+    SCOPES = ['https://www.googleapis.com/auth/drive']  # <-- Add this line
+
     def __init__(self, download_path: str, drive_folders: dict):
         self.download_path = download_path
         os.makedirs(download_path, exist_ok=True)
         self.gdrive = GoogleDriveManager()
         self.drive_folders = drive_folders  # Dict with keys: VIDEOS, AUDIOS, TRANSCRIPTS, REPORTS, MENTOR_MATERIALS
+
+        gcp_credentials = os.getenv("GCP_CREDENTIALS")
+        if gcp_credentials:
+            cred_data = json.loads(gcp_credentials)
+            self.creds = service_account.Credentials.from_service_account_info(
+                cred_data, scopes=self.SCOPES
+            )
 
     def process_one_video(self, videos_folder_url: str):
         videos_folder_id = self.gdrive.get_folder_id(videos_folder_url)
