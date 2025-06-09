@@ -496,3 +496,56 @@
 2025-06-09 14:29:54,884 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-09 14:29:56,703 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-09 14:29:57,899 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:37:35,641 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:37:38,376 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:37:53,806 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:37:57,216 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:38:00,523 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:38:04,485 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:38:05,651 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-09 14:38:05,950 INFO src.main_flow: Processing mentor materials...
+2025-06-09 14:38:06,175 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:38:08,607 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 14:38:08,906 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:38:11,080 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-09 14:38:12,086 INFO src.main_flow: Processing Google Drive folder: https://drive.google.com/drive/folders/1angHYyiE_sPTKpRsrHyPAJkYF7b78iPf
+2025-06-09 14:38:12,445 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:38:14,050 INFO src.main_flow: Transcript for Use case of Agent SDK already exists in Drive. Skipping video.
+2025-06-09 14:38:14,051 INFO src.main_flow: Transcript for Working of Agent SDK already exists in Drive. Skipping video.
+2025-06-09 14:38:14,052 INFO src.main_flow: Transcript for Overview and Key Components of Agent SDK already exists in Drive. Skipping video.
+2025-06-09 14:38:16,071 INFO src.main_flow: Generating quality reports...
+2025-06-09 14:38:16,425 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:38:17,993 INFO src.preprocessing.gdrive_manager: Deleted file 1gue1YIOxfiH7WoKFllmn0IgWWWIZbWCg from Drive
+2025-06-09 14:38:17,994 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: report_Working of Agent SDK.txt (1gue1YIOxfiH7WoKFllmn0IgWWWIZbWCg)
+2025-06-09 14:38:19,073 INFO src.preprocessing.gdrive_manager: Deleted file 1T1vgJwwTEUDxX-u9-K1rix-1pcK409Iz from Drive
+2025-06-09 14:38:19,097 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: report_Use case of Agent SDK.txt (1T1vgJwwTEUDxX-u9-K1rix-1pcK409Iz)
+2025-06-09 14:38:20,087 INFO src.preprocessing.gdrive_manager: Deleted file 1kWFiPz7pC4B6jOy7UU5zNftBCfGlS18S from Drive
+2025-06-09 14:38:20,095 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: report_Overview and Key Components of Agent SDK.txt (1kWFiPz7pC4B6jOy7UU5zNftBCfGlS18S)
+2025-06-09 14:38:21,927 INFO src.preprocessing.gdrive_manager: Deleted file 1-_HX2p8RBjcYVOpVfUso-k5fVlweEtA0 from Drive
+2025-06-09 14:38:21,928 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent_SDK_+_Google_SDK.txt (1-_HX2p8RBjcYVOpVfUso-k5fVlweEtA0)
+2025-06-09 14:38:22,715 INFO src.preprocessing.gdrive_manager: Deleted file 15shdZrkUb6PFK1LCAtUDki8MJ_xxUne9 from Drive
+2025-06-09 14:38:22,722 INFO src.preprocessing.gdrive_manager: Deleted duplicate file: Agent SDK_V1_24-04-25.txt (15shdZrkUb6PFK1LCAtUDki8MJ_xxUne9)
+2025-06-09 14:38:22,869 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:38:23,633 INFO src.preprocessing.gdrive_manager: Downloading file 1n8QMx_Otk3H43GZvQENlggyJDSJdtak0 to transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-09 14:38:24,923 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 14:38:24,926 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Overview and Key Components of Agent SDK.txt
+2025-06-09 14:38:24,927 INFO src.preprocessing.gdrive_manager: Downloading file 1oNFOPhkdwt27pA9UdaYtUo77tI4RRgKu to transcripts\Working of Agent SDK.txt
+2025-06-09 14:38:25,852 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 14:38:25,854 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Working of Agent SDK.txt
+2025-06-09 14:38:25,855 INFO src.preprocessing.gdrive_manager: Downloading file 1WGyTjJ9MrltY3YoZmPsY9wXzzHgtUCfr to transcripts\Use case of Agent SDK.txt
+2025-06-09 14:38:26,867 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-09 14:38:26,874 INFO src.preprocessing.gdrive_manager: Download complete: transcripts\Use case of Agent SDK.txt
+2025-06-09 14:38:26,948 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-09 14:38:32,145 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:38:32,153 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-09 14:38:34,188 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-09 14:38:38,418 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:38:38,422 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-09 14:38:40,448 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-09 14:38:45,294 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-09 14:38:45,296 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-09 14:38:47,362 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-09 14:38:49,500 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:38:51,747 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:38:53,587 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-09 14:38:54,830 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
