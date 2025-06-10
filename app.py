@@ -77,7 +77,7 @@ if 'video_type' not in st.session_state:
 
 # App header
 st.title("📊 QC Report Generator")
-st.subheader("Automated Quality Control for Training Videos")
+st.subheader("Automated Quality Control for Recordings")
 
 # Configuration Section
 with st.expander("⚙️ Configuration", expanded=True):
