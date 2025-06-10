@@ -1042,3 +1042,835 @@
 2025-06-09 22:51:07,910 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-09 22:51:07,912 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Working of Agent SDK.txt
 2025-06-09 22:51:10,974 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:38:37,188 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 15:38:44,656 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 15:39:04,775 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 15:39:07,163 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 15:39:07,198 INFO src.main_flow: Processing mentor materials...
+2025-06-10 15:39:07,537 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:39:10,617 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-10 15:39:11,839 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:39:13,341 INFO src.preprocessing.gdrive_manager: Downloading file 1bTr-VeFLI72x_jFWcbgyIC8mgeuHfn7U to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-10 15:39:21,064 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 15:39:21,065 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-10 15:39:29,439 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 15:39:29,964 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 15:39:29,965 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1bTr-VeFLI72x_jFWcbgyIC8mgeuHfn7U? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 15:43:22,275 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 15:43:24,345 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 15:43:25,873 INFO src.preprocessing.gdrive_manager: Deleted file 1vAiUsLmFTPT6XNy261qGVSPkr9lKKhV5 from Drive
+2025-06-10 15:43:26,182 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:43:26,186 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 15:43:26,187 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 15:43:26,189 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 15:43:26,195 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 15:43:38,335 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 15:43:38,345 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 15:43:38,413 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 15:43:41,592 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 15:43:41,592 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 15:43:44,596 INFO src.preprocessing.gdrive_manager: Downloading file 1xmSKuAlfq6_rZMjxn2V5UrFqMqIG5bgx to videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-10 15:43:53,900 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 15:43:53,901 INFO src.preprocessing.gdrive_manager: Download complete: videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-10 15:43:59,717 INFO src.preprocessing.gdrive_manager: Uploaded audios\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 15:44:03,964 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 15:44:03,966 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1xmSKuAlfq6_rZMjxn2V5UrFqMqIG5bgx? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 15:47:57,011 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 15:47:59,277 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 15:48:00,556 INFO src.preprocessing.gdrive_manager: Deleted file 1yjMY3dNhuKDl6PfPIooCMLwcuoKyS0sE from Drive
+2025-06-10 15:48:00,817 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:48:00,822 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 15:48:00,822 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 15:48:00,823 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 15:48:00,826 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 15:48:09,551 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 15:48:09,553 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 15:48:09,556 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 15:48:12,901 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 15:48:12,918 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 15:48:15,922 INFO src.preprocessing.gdrive_manager: Downloading file 1gtMyiidF0wdc6yWZCE9fUuW5dG4Uxv6K to videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-10 15:48:24,480 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 15:48:24,481 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-10 15:48:28,469 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 15:48:29,096 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 15:48:29,096 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1gtMyiidF0wdc6yWZCE9fUuW5dG4Uxv6K? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 15:50:29,808 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 15:50:32,771 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 15:50:33,926 INFO src.preprocessing.gdrive_manager: Deleted file 1CuzQHuyo8y7yTCXTxulr785vJZxufb0R from Drive
+2025-06-10 15:50:34,125 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:50:34,128 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 15:50:34,129 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 15:50:34,130 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 15:50:34,132 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 15:50:46,285 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 15:50:46,287 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 15:50:46,292 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 15:50:48,730 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 15:50:48,733 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 15:50:51,749 INFO src.preprocessing.gdrive_manager: Downloading file 1YO7nbEkRQTqXdkPnAwuThVM3J7SRPCNl to videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-10 15:51:00,924 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 15:51:00,925 INFO src.preprocessing.gdrive_manager: Download complete: videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-10 15:51:04,564 INFO src.preprocessing.gdrive_manager: Uploaded audios\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 15:51:14,337 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 15:51:14,338 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1YO7nbEkRQTqXdkPnAwuThVM3J7SRPCNl? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 15:52:42,952 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 15:52:44,562 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 15:52:46,021 INFO src.preprocessing.gdrive_manager: Deleted file 14rSwcuG0XjSwhDRZ1f8ID8cmBu4NGfsH from Drive
+2025-06-10 15:52:46,091 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:52:46,093 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 15:52:46,093 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 15:52:46,094 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 15:52:46,094 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 15:52:58,864 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 15:52:58,866 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 15:52:58,867 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 15:53:01,762 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 15:53:01,765 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 15:53:04,774 INFO src.preprocessing.gdrive_manager: Downloading file 1mY6xMjvOM6-daMcnRaRkKHboqbZPlV7x to videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-10 15:53:11,933 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 15:53:11,934 INFO src.preprocessing.gdrive_manager: Download complete: videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-10 15:53:15,360 INFO src.preprocessing.gdrive_manager: Uploaded audios\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 15:53:15,928 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 15:53:15,971 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1mY6xMjvOM6-daMcnRaRkKHboqbZPlV7x? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 15:54:24,658 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 15:54:29,343 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 15:54:30,464 INFO src.preprocessing.gdrive_manager: Deleted file 1stsvMk2yUwJfjWJhgXOYX1lMiE8Hdw1b from Drive
+2025-06-10 15:54:31,063 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 15:54:31,071 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 15:54:31,072 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 15:54:31,074 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 15:54:31,075 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 15:54:40,795 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 15:54:40,906 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 15:54:40,962 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 15:54:43,470 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 15:54:43,474 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 15:54:46,481 INFO src.preprocessing.gdrive_manager: Downloading file 1UJZhLeccvrOyaBQ9l8yugNCI3D0zxLdP to videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-10 15:54:59,899 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 15:54:59,900 INFO src.preprocessing.gdrive_manager: Download complete: videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-10 15:55:07,413 INFO src.preprocessing.gdrive_manager: Uploaded audios\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 15:55:08,008 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 15:55:08,085 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1UJZhLeccvrOyaBQ9l8yugNCI3D0zxLdP? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 16:02:08,611 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:02:10,990 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 16:02:12,084 INFO src.preprocessing.gdrive_manager: Deleted file 1PCfuOimC3Hr8dQb6S2mugTFKhdgmsU17 from Drive
+2025-06-10 16:02:12,477 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:02:12,481 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 16:02:12,482 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:02:12,484 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 16:02:12,497 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:02:24,250 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:02:24,251 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:02:24,254 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:02:26,916 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:02:26,917 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:02:30,119 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:02:31,511 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:02:31,513 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 16:02:31,514 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:02:31,514 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 16:02:31,516 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:02:42,652 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:02:42,654 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:02:42,656 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:02:44,036 INFO src.preprocessing.gdrive_manager: Deleted file 1Lh89ip4wXcIdKYZo9wEdDxtjJRbqs3_U from Drive
+2025-06-10 16:02:44,037 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:02:45,968 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:02:45,970 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:02:47,971 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 16:02:47,972 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:02:47,973 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 16:02:47,973 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:02:56,458 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:02:56,460 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:02:56,463 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:02:57,919 INFO src.preprocessing.gdrive_manager: Deleted file 1FeMGx3RHAn0EmZF5GOntYOW2XbfSeXqr from Drive
+2025-06-10 16:02:57,920 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:02:59,962 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:02:59,964 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:03:01,966 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 16:03:01,992 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:03:01,994 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 16:03:01,995 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:03:12,640 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:03:12,641 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:03:12,644 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:03:13,840 INFO src.preprocessing.gdrive_manager: Deleted file 1PBcNAVe9ZNgAzBsM0QA97A9BsycElEgK from Drive
+2025-06-10 16:03:13,841 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:03:15,534 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:03:15,535 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:03:17,536 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 16:03:17,536 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:03:17,537 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 16:03:17,537 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:03:28,060 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:03:28,063 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:03:28,067 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:03:29,109 INFO src.preprocessing.gdrive_manager: Deleted file 1o_rSoqSBmURrUG-1dqOj1XbW-38A1Ik_ from Drive
+2025-06-10 16:03:29,126 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:03:34,951 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:03:34,953 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:03:36,954 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 16:03:36,955 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:03:36,957 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 16:03:36,957 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:03:47,963 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:03:47,967 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:03:47,978 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:03:49,345 INFO src.preprocessing.gdrive_manager: Deleted file 1q3clquHZqAR8zXmp2JqGo5Qjq3lOLC2T from Drive
+2025-06-10 16:03:49,346 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:03:51,249 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:03:51,350 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:03:53,354 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 16:03:53,357 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:03:53,358 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 16:03:53,359 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:04:02,855 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:04:02,860 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:04:02,862 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:04:04,160 INFO src.preprocessing.gdrive_manager: Deleted file 1GWRTAGMFMoQe8RAnLr6q8XV26iRnt-t1 from Drive
+2025-06-10 16:04:04,247 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:04:06,033 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:04:06,035 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:04:09,186 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:36:19,240 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:36:19,263 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:36:25,974 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:36:31,844 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:36:36,363 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:36:36,381 INFO src.main_flow: Processing mentor materials...
+2025-06-10 16:36:37,056 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:36:38,884 INFO src.preprocessing.gdrive_manager: Deleted file 12gkJQM5tFCdpdbl8mSN7qQ-mbu2OYW5K from Drive
+2025-06-10 16:36:38,885 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-10 16:36:40,742 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-10 16:36:42,294 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:36:44,111 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:36:44,115 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 16:36:44,116 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:36:44,148 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 16:36:44,152 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:36:54,962 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:36:54,967 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:36:54,983 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:36:56,407 INFO src.preprocessing.gdrive_manager: Deleted file 1zFwo8Pun5JRfpa1EyDcOoHFFX-ywwky- from Drive
+2025-06-10 16:36:56,408 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:37:00,074 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:37:00,083 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:37:02,358 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:37:02,364 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 16:37:02,365 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:37:02,369 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 16:37:02,370 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:37:10,367 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:37:10,372 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:37:10,376 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:37:12,309 INFO src.preprocessing.gdrive_manager: Deleted file 1AtcLLDffrbjjgQfhEaJqz8GKau2_k5qE from Drive
+2025-06-10 16:37:12,327 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:37:18,232 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:37:18,235 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:37:20,499 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:37:20,504 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 16:37:20,505 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:37:20,508 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 16:37:20,509 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:37:31,000 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:37:31,025 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:37:31,028 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:37:32,656 INFO src.preprocessing.gdrive_manager: Deleted file 1MKV_y4NWdCsaK3jl6R7I3noDFb1k8Zhy from Drive
+2025-06-10 16:37:32,733 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:37:34,866 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:37:34,867 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:37:37,265 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:37:37,270 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 16:37:37,328 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:37:37,337 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 16:37:37,339 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:37:47,901 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:37:47,903 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:37:47,907 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:37:49,356 INFO src.preprocessing.gdrive_manager: Deleted file 1Tnpxbi7gVQFR6uiiqZ_4YLE8K2wdqw8Y from Drive
+2025-06-10 16:37:49,357 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:37:50,991 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:37:50,993 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:37:53,147 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:37:53,151 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 16:37:53,152 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:37:53,154 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 16:37:53,155 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:38:02,797 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:38:02,853 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:38:02,864 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:38:04,742 INFO src.preprocessing.gdrive_manager: Deleted file 1d3TIBBwAecuwTyyHtiVHepZgvZpUdMQL from Drive
+2025-06-10 16:38:04,756 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:38:10,835 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:38:10,836 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:38:12,998 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:38:13,000 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 16:38:13,001 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:38:13,001 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 16:38:13,001 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:38:25,675 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:38:25,679 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:38:25,685 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:38:27,518 INFO src.preprocessing.gdrive_manager: Deleted file 17k7fvUs2xpLo2WMkIz4ejWGYBkFip0Vr from Drive
+2025-06-10 16:38:27,525 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:38:29,684 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:38:29,691 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:38:31,870 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:38:33,642 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:38:33,649 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 16:38:33,684 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:38:33,696 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 16:38:33,699 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:38:45,183 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:38:45,186 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:38:45,189 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:38:46,809 INFO src.preprocessing.gdrive_manager: Deleted file 1COX79ofH6WaxQ0yIIEoyzBDXGK18fwl_ from Drive
+2025-06-10 16:38:47,136 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:38:48,793 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:38:48,794 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:38:50,796 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 16:38:50,797 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:38:50,798 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 16:38:50,799 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:39:01,549 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:39:01,551 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:39:01,555 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:39:02,603 INFO src.preprocessing.gdrive_manager: Deleted file 14pGr20I2Wf9dkrh2mrMh036D15GOSjpZ from Drive
+2025-06-10 16:39:02,603 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:39:04,893 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:39:04,894 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:39:06,895 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 16:39:06,895 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:39:06,897 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 16:39:06,897 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:39:17,645 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:39:17,649 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:39:17,652 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:39:18,641 INFO src.preprocessing.gdrive_manager: Deleted file 11RW9GZIrjG0dGoAtDPQFvjn9GePbCgER from Drive
+2025-06-10 16:39:18,642 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:39:25,057 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:39:25,060 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:39:27,065 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 16:39:27,078 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:39:27,083 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 16:39:27,185 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:39:38,507 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:39:38,510 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:39:38,512 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:39:39,815 INFO src.preprocessing.gdrive_manager: Deleted file 1zvjWO2JrGML7vmAbMX9UfawA6nDdQX_D from Drive
+2025-06-10 16:39:39,843 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:39:41,623 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:39:41,624 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:39:43,626 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 16:39:43,627 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:39:43,628 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 16:39:43,628 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:39:54,162 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:39:54,164 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:39:54,166 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:39:55,385 INFO src.preprocessing.gdrive_manager: Deleted file 1E0xhLHt9Z1bw4-GsB5T5BmR0CQh333Pv from Drive
+2025-06-10 16:39:55,386 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:39:57,809 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:39:57,842 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:39:59,846 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 16:39:59,848 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:39:59,849 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 16:39:59,851 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:40:10,030 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:40:10,034 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:40:10,036 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:40:11,356 INFO src.preprocessing.gdrive_manager: Deleted file 1HQJb2BteFFBRocLjORukelolAuXzxJNo from Drive
+2025-06-10 16:40:11,358 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:40:16,496 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:40:16,497 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 16:40:19,562 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:42:05,595 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:42:05,596 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:42:32,157 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:42:34,726 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:42:36,228 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 16:42:36,355 INFO src.main_flow: Processing mentor materials...
+2025-06-10 16:42:36,740 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:42:38,472 INFO src.preprocessing.gdrive_manager: Deleted file 1d1Tn9Pf1CDpdof2mC1ccvdQtgNbiqaxn from Drive
+2025-06-10 16:42:38,473 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-10 16:42:40,435 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-10 16:42:41,867 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:42:49,718 INFO src.preprocessing.gdrive_manager: Downloading file 1bTr-VeFLI72x_jFWcbgyIC8mgeuHfn7U to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-10 16:42:58,034 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 16:42:58,035 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-10 16:43:05,204 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 16:43:06,915 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 16:43:06,916 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1bTr-VeFLI72x_jFWcbgyIC8mgeuHfn7U? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 16:46:59,754 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:47:01,763 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 16:47:03,111 INFO src.preprocessing.gdrive_manager: Deleted file 1hZb27XAgSuwy5gjWHSvqm28WM5opwvtg from Drive
+2025-06-10 16:47:03,321 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:47:03,324 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 16:47:03,325 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:47:03,325 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 16:47:03,326 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:47:16,725 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:47:16,732 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:47:16,742 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:47:18,371 INFO src.preprocessing.gdrive_manager: Deleted file 1URO8iwwp-zsxAihDlQ5Ihd9VxVIgm2Gj from Drive
+2025-06-10 16:47:18,372 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:47:19,868 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:47:19,869 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 16:47:22,874 INFO src.preprocessing.gdrive_manager: Downloading file 1xmSKuAlfq6_rZMjxn2V5UrFqMqIG5bgx to videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-10 16:47:30,919 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 16:47:30,919 INFO src.preprocessing.gdrive_manager: Download complete: videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-10 16:47:37,287 INFO src.preprocessing.gdrive_manager: Uploaded audios\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 16:47:37,841 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 16:47:37,843 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1xmSKuAlfq6_rZMjxn2V5UrFqMqIG5bgx? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 16:51:30,892 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:51:33,249 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 16:51:34,326 INFO src.preprocessing.gdrive_manager: Deleted file 1tiDDKdX9uz-b-yehDSl1pf3fus0YogVH from Drive
+2025-06-10 16:51:34,416 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:51:34,432 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 16:51:34,432 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:51:34,433 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 16:51:34,433 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:51:41,946 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:51:41,948 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:51:41,951 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:51:43,397 INFO src.preprocessing.gdrive_manager: Deleted file 1y2SUVbwgg4zXBA2AdWuRUTjyDUwXHZwS from Drive
+2025-06-10 16:51:43,397 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:51:44,998 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:51:44,999 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 16:51:48,005 INFO src.preprocessing.gdrive_manager: Downloading file 1gtMyiidF0wdc6yWZCE9fUuW5dG4Uxv6K to videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-10 16:51:53,132 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 16:51:53,132 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-10 16:51:56,681 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 16:51:57,251 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 16:51:57,252 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1gtMyiidF0wdc6yWZCE9fUuW5dG4Uxv6K? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 16:53:57,665 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:53:59,683 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 16:54:01,109 INFO src.preprocessing.gdrive_manager: Deleted file 1D_H1Ke1QoaStp7ms7tNsKrRweLIKro1O from Drive
+2025-06-10 16:54:01,951 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:54:01,956 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 16:54:01,957 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:54:01,959 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 16:54:01,959 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:54:12,761 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:54:12,764 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:54:12,767 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:54:14,672 INFO src.preprocessing.gdrive_manager: Deleted file 15eTuKMJI-qatELlqpOInZxHzOcchc3uj from Drive
+2025-06-10 16:54:14,674 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:54:16,652 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:54:16,653 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 16:54:19,663 INFO src.preprocessing.gdrive_manager: Downloading file 1YO7nbEkRQTqXdkPnAwuThVM3J7SRPCNl to videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-10 16:54:27,930 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 16:54:27,932 INFO src.preprocessing.gdrive_manager: Download complete: videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-10 16:54:31,777 INFO src.preprocessing.gdrive_manager: Uploaded audios\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 16:54:32,381 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 16:54:32,383 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1YO7nbEkRQTqXdkPnAwuThVM3J7SRPCNl? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 16:56:01,536 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:56:04,162 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 16:56:05,231 INFO src.preprocessing.gdrive_manager: Deleted file 1kyg81eUcH54z0LUHnWJBIunl4bBNCfeL from Drive
+2025-06-10 16:56:05,583 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:56:05,594 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 16:56:05,596 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:56:05,597 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 16:56:05,599 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:56:17,309 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:56:17,312 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:56:17,315 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:56:22,664 INFO src.preprocessing.gdrive_manager: Deleted file 1nIQfDxLmnGvwuaKCQs2zMNi6FkaPPY2P from Drive
+2025-06-10 16:56:22,666 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:56:24,485 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:56:24,487 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 16:56:27,507 INFO src.preprocessing.gdrive_manager: Downloading file 1mY6xMjvOM6-daMcnRaRkKHboqbZPlV7x to videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-10 16:56:38,562 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 16:56:38,563 INFO src.preprocessing.gdrive_manager: Download complete: videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-10 16:56:42,326 INFO src.preprocessing.gdrive_manager: Uploaded audios\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 16:56:44,397 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 16:56:44,417 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1mY6xMjvOM6-daMcnRaRkKHboqbZPlV7x? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 16:57:53,157 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:57:59,857 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 16:58:01,563 INFO src.preprocessing.gdrive_manager: Deleted file 13EClPnC1nElI3ETaBKe6sLeVQQiU7G4C from Drive
+2025-06-10 16:58:01,795 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 16:58:01,800 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 16:58:01,801 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 16:58:01,801 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 16:58:01,803 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 16:58:14,230 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 16:58:14,233 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 16:58:14,236 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:58:15,957 INFO src.preprocessing.gdrive_manager: Deleted file 1wjDFYbDKQLcxtllBOrJYfriLzzLnhxMD from Drive
+2025-06-10 16:58:15,961 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:58:17,836 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 16:58:17,837 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 16:58:20,845 INFO src.preprocessing.gdrive_manager: Downloading file 1UJZhLeccvrOyaBQ9l8yugNCI3D0zxLdP to videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-10 16:58:33,003 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 16:58:33,004 INFO src.preprocessing.gdrive_manager: Download complete: videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-10 16:58:40,836 INFO src.preprocessing.gdrive_manager: Uploaded audios\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 16:58:41,819 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 16:58:41,820 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1UJZhLeccvrOyaBQ9l8yugNCI3D0zxLdP? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 17:05:41,994 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:05:45,000 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 17:05:46,114 INFO src.preprocessing.gdrive_manager: Deleted file 1gKfZ6p_IOGZgBTehdTSYDS4IaVhNvQsE from Drive
+2025-06-10 17:05:46,337 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:05:46,344 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 17:05:46,346 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:05:46,349 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 17:05:46,351 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:05:57,590 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:05:57,593 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:05:57,598 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:05:59,345 INFO src.preprocessing.gdrive_manager: Deleted file 14wuChr00ALwWoeUQH4XWgzphPeiTnoHg from Drive
+2025-06-10 17:05:59,345 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:06:01,631 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:06:01,632 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:06:04,838 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:06:06,042 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:06:06,049 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 17:06:06,051 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:06:06,053 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 17:06:06,054 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:06:15,931 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:06:15,933 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:06:15,938 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:06:17,358 INFO src.preprocessing.gdrive_manager: Deleted file 1oWn86eK-CEwZp0cIAubG7DrPPOcdIXDi from Drive
+2025-06-10 17:06:17,358 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:06:19,301 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:06:19,302 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:06:21,304 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 17:06:21,306 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:06:21,306 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 17:06:21,307 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:06:31,488 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:06:31,491 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:06:31,495 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:06:32,712 INFO src.preprocessing.gdrive_manager: Deleted file 1Hw8Pb5iC_NjkZHw0I10QQq1kKjiyW8RH from Drive
+2025-06-10 17:06:32,713 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:06:35,107 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:06:35,109 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:06:37,110 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 17:06:37,112 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:06:37,112 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 17:06:37,112 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:06:47,974 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:06:47,977 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:06:47,981 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:06:49,222 INFO src.preprocessing.gdrive_manager: Deleted file 1JpzLtnxcMIss5AiMnk3y0s6wVzl1h3lW from Drive
+2025-06-10 17:06:49,224 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:06:51,288 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:06:51,317 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:06:53,319 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 17:06:53,321 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:06:53,322 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 17:06:53,323 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:07:02,410 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:07:02,413 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:07:02,416 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:07:04,051 INFO src.preprocessing.gdrive_manager: Deleted file 1m5FR6CVCqGibFMdCA4MQWHJgus4LfAki from Drive
+2025-06-10 17:07:04,054 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:07:06,610 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:07:06,611 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:07:08,613 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 17:07:08,614 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:07:08,615 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 17:07:08,617 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:07:17,772 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:07:17,775 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:07:17,779 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:07:18,887 INFO src.preprocessing.gdrive_manager: Deleted file 1e3mt_5HV8gVdLPvURzDCpJmSs5cc_ZTv from Drive
+2025-06-10 17:07:18,889 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:07:20,605 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:07:20,606 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:07:22,609 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 17:07:22,610 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:07:22,610 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 17:07:22,610 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:07:32,155 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:07:32,160 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:07:32,162 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:07:33,284 INFO src.preprocessing.gdrive_manager: Deleted file 19k-K__cNjqDa7cC-AIKwz7tvC-8IjBYq from Drive
+2025-06-10 17:07:33,286 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:07:35,489 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:07:35,490 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:07:38,706 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:40:53,563 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:40:53,567 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:40:58,845 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:41:04,923 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:41:05,967 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:41:05,991 INFO src.main_flow: Processing mentor materials...
+2025-06-10 17:41:06,367 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:41:08,126 INFO src.preprocessing.gdrive_manager: Deleted file 1ybDJzv8QHETUveuqdS3IRcMOZ7PO6YjU from Drive
+2025-06-10 17:41:08,128 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-10 17:41:09,671 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-10 17:41:10,894 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:41:12,974 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:41:12,981 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 17:41:12,987 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:41:12,988 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 17:41:12,989 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:41:20,957 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:41:20,964 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:41:20,967 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:41:22,389 INFO src.preprocessing.gdrive_manager: Deleted file 1T1eqSUeDCXLUQ0GqKkHYOlMoFLzQuFZw from Drive
+2025-06-10 17:41:22,390 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:41:24,411 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:41:24,413 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:41:26,498 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:41:26,500 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 17:41:26,500 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:41:26,501 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 17:41:26,502 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:41:34,063 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:41:34,065 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:41:34,069 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:41:35,452 INFO src.preprocessing.gdrive_manager: Deleted file 1gkYieTjT22cvrmNWjj3czVT61jiBne0c from Drive
+2025-06-10 17:41:35,454 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:41:37,650 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:41:37,651 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:41:39,738 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:41:39,741 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 17:41:39,742 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:41:39,742 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 17:41:39,743 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:41:51,327 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:41:51,331 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:41:51,335 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:41:53,152 INFO src.preprocessing.gdrive_manager: Deleted file 1lN6m38SYTE82UCrDwNsCCJroryBv1WiI from Drive
+2025-06-10 17:41:53,154 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:41:55,464 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:41:55,466 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:41:57,555 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:41:57,558 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 17:41:57,559 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:41:57,560 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 17:41:57,561 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:42:05,807 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:42:05,809 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:42:05,812 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:42:07,239 INFO src.preprocessing.gdrive_manager: Deleted file 1VNpHEitAIxLQDAYcxW_KDatgMdYg-CXh from Drive
+2025-06-10 17:42:07,240 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:42:09,228 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:42:09,229 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:42:11,326 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:42:11,329 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 17:42:11,329 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:42:11,330 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 17:42:11,330 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:42:21,690 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:42:21,692 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:42:21,697 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:42:23,215 INFO src.preprocessing.gdrive_manager: Deleted file 1TCkZ5bYbWQPMgETbxRkUSY85cFlsDyd6 from Drive
+2025-06-10 17:42:23,216 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:42:28,952 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:42:28,953 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:42:31,205 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:42:31,211 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 17:42:31,214 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:42:31,216 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 17:42:31,218 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:42:40,115 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:42:40,118 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:42:40,122 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:42:41,729 INFO src.preprocessing.gdrive_manager: Deleted file 1L5qY4NHVTBo4rILhOwUAfD_UXsto2DtB from Drive
+2025-06-10 17:42:41,730 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:42:44,001 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:42:44,002 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:42:46,226 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:42:47,419 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:42:47,424 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 17:42:47,425 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:42:47,426 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 17:42:47,427 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:42:56,710 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:42:56,714 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:42:56,718 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:42:58,440 INFO src.preprocessing.gdrive_manager: Deleted file 1S9PCe7O6G8pCtJNtUtH1Pp-LNkebiZsw from Drive
+2025-06-10 17:42:58,442 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:43:00,795 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:43:00,797 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:43:02,798 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 17:43:02,800 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:43:02,802 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 17:43:02,803 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:43:23,950 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:43:23,953 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:43:23,957 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:43:25,063 INFO src.preprocessing.gdrive_manager: Deleted file 105odhobr6ISQPLfxZ7mnNxuc-Punq7-z from Drive
+2025-06-10 17:43:25,064 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:43:30,695 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:43:30,696 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:43:32,698 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 17:43:32,700 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:43:32,701 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 17:43:32,702 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:43:41,449 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:43:41,451 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:43:41,455 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:43:42,526 INFO src.preprocessing.gdrive_manager: Deleted file 1Pq9xtINfUa2nFsk2NCT4HIqw9utE0Xyw from Drive
+2025-06-10 17:43:42,530 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:43:48,721 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:43:48,723 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:43:50,724 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 17:43:50,725 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:43:50,726 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 17:43:50,727 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:43:59,007 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:43:59,009 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:43:59,013 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:44:00,146 INFO src.preprocessing.gdrive_manager: Deleted file 12DVwJp9eZK1N9gxEqH4uZpQjpSh4yklF from Drive
+2025-06-10 17:44:00,147 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:44:01,928 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:44:01,929 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:44:03,931 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 17:44:03,933 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:44:03,934 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 17:44:03,935 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:44:39,099 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:44:39,102 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:44:39,105 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:44:40,122 INFO src.preprocessing.gdrive_manager: Deleted file 1nAOfjclubdviSngYtKuvx9nxs_3go7Z2 from Drive
+2025-06-10 17:44:40,123 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:44:50,900 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:44:50,902 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:44:52,903 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 17:44:52,904 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:44:52,905 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 17:44:52,906 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:45:05,827 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:45:05,829 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:45:05,832 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:45:07,360 INFO src.preprocessing.gdrive_manager: Deleted file 1-ur0YOVr1U5oRDD4r_d2JP1BWR6HCq66 from Drive
+2025-06-10 17:45:07,361 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:45:17,391 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:45:17,392 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:48:12,003 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:48:12,005 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:48:12,006 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:48:23,410 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:48:26,789 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:48:28,002 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:48:28,025 INFO src.main_flow: Processing mentor materials...
+2025-06-10 17:48:28,382 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:48:30,013 INFO src.preprocessing.gdrive_manager: Deleted file 1PWo5UhJRJetnZVVr8wEQFJpUiPht4RX1 from Drive
+2025-06-10 17:48:30,015 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-10 17:48:31,899 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-10 17:48:33,057 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:48:34,960 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:48:34,965 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 17:48:34,966 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:48:34,967 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 17:48:34,967 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:48:48,348 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:48:48,354 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:48:48,359 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:48:49,889 INFO src.preprocessing.gdrive_manager: Deleted file 1rST77nKkGdP0ZN_0nveCjo9IyYAuKk84 from Drive
+2025-06-10 17:48:49,891 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:48:51,617 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:48:51,619 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:48:53,813 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:48:53,818 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-10 17:48:53,823 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:48:53,827 INFO src.report_generation.report_generator: Transcript length: 7417
+2025-06-10 17:48:53,828 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:49:07,798 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:49:07,802 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:49:07,807 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:49:09,625 INFO src.preprocessing.gdrive_manager: Deleted file 1dtGbq5z5TBsaprOTr_1nRLPLMKeEcgjt from Drive
+2025-06-10 17:49:09,627 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:49:11,669 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:49:11,670 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-10 17:49:13,919 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:49:13,926 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-10 17:49:13,927 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:49:13,929 INFO src.report_generation.report_generator: Transcript length: 2386
+2025-06-10 17:49:13,930 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:49:21,746 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:49:21,748 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:49:21,752 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:49:23,522 INFO src.preprocessing.gdrive_manager: Deleted file 1M_ftBROsL8OTNCFflq3g4v8RKPkGsk7f from Drive
+2025-06-10 17:49:23,523 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:49:26,163 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:49:26,165 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-10 17:49:28,413 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:49:28,418 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 17:49:28,419 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:49:28,420 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 17:49:28,421 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:49:38,004 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:49:38,006 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:49:38,010 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:49:39,748 INFO src.preprocessing.gdrive_manager: Deleted file 1fseZDwWww_kT7OgyPRbkiFnxKZJ_3kFh from Drive
+2025-06-10 17:49:39,749 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:49:43,316 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:49:43,317 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:49:45,568 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:49:45,574 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-10 17:49:45,580 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:49:45,582 INFO src.report_generation.report_generator: Transcript length: 1515
+2025-06-10 17:49:45,583 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:49:54,909 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:49:54,912 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:49:54,915 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:49:56,559 INFO src.preprocessing.gdrive_manager: Deleted file 1rzVSdRMhSozb9bp9Fw0V0akveCLq_6hY from Drive
+2025-06-10 17:49:56,560 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:49:58,587 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:49:58,589 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-10 17:50:00,844 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:50:00,851 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-10 17:50:00,856 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:50:00,857 INFO src.report_generation.report_generator: Transcript length: 10465
+2025-06-10 17:50:00,859 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:50:10,492 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:50:10,495 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:50:10,499 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:50:12,208 INFO src.preprocessing.gdrive_manager: Deleted file 1XtF-ek1kYZAg4A2_3qtwSkgeXL7RAcXz from Drive
+2025-06-10 17:50:12,210 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:50:16,425 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:50:16,427 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-10 17:51:08,300 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:51:12,829 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:51:15,744 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:51:18,472 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-10 17:51:18,495 INFO src.main_flow: Processing mentor materials...
+2025-06-10 17:51:18,879 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:51:20,506 INFO src.preprocessing.gdrive_manager: Deleted file 1gW71dNqR-WhED7Ods7b22-iXodpkCvh3 from Drive
+2025-06-10 17:51:20,517 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-10 17:51:22,065 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-10 17:51:23,269 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:51:24,961 INFO src.preprocessing.gdrive_manager: Downloading file 1bTr-VeFLI72x_jFWcbgyIC8mgeuHfn7U to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-10 17:51:34,066 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 17:51:34,067 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-10 17:51:39,452 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 17:51:40,271 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 17:51:40,274 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1bTr-VeFLI72x_jFWcbgyIC8mgeuHfn7U? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 17:55:32,347 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:55:34,606 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 17:55:35,951 INFO src.preprocessing.gdrive_manager: Deleted file 1_iTBO3LcUfxWzhuZDKM6EFE12dqj-TKZ from Drive
+2025-06-10 17:55:36,199 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:55:36,206 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-10 17:55:36,212 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:55:36,214 INFO src.report_generation.report_generator: Transcript length: 7080
+2025-06-10 17:55:36,217 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:55:46,690 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:55:46,694 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:55:46,697 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:55:49,453 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:55:49,454 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-10 17:55:52,468 INFO src.preprocessing.gdrive_manager: Downloading file 1YO7nbEkRQTqXdkPnAwuThVM3J7SRPCNl to videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-10 17:56:00,604 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-10 17:56:00,605 INFO src.preprocessing.gdrive_manager: Download complete: videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-10 17:56:04,066 INFO src.preprocessing.gdrive_manager: Uploaded audios\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-10 17:56:04,793 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-10 17:56:04,794 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1YO7nbEkRQTqXdkPnAwuThVM3J7SRPCNl? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-10 17:57:33,086 INFO src.preprocessing.transcript_generator: Transcript saved to transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:57:36,870 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-10 17:57:38,035 INFO src.preprocessing.gdrive_manager: Deleted file 1_oDId6opbmsVNFNlnSkJeB6-2vvNGCjV from Drive
+2025-06-10 17:57:38,280 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-10 17:57:38,286 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-10 17:57:38,288 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-10 17:57:38,290 INFO src.report_generation.report_generator: Transcript length: 1599
+2025-06-10 17:57:38,292 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-10 17:57:47,725 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-10 17:57:47,730 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-10 17:57:47,734 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-10 17:57:50,386 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-10 17:57:50,388 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt

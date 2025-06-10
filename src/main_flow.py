@@ -161,9 +161,15 @@ class MainFlow:
             # Remove original file
             os.remove(file_path)
             
-            # Upload to Drive
+            # Upload to Drive (overwrite if exists)
             gdrive = GoogleDriveManager()
-            gdrive.upload_file(output_path, self.drive_folders["MENTOR_MATERIALS"], "application/octet-stream")
+            mentor_folder_id = self.drive_folders["MENTOR_MATERIALS"]
+            # Check and delete duplicate in Drive
+            drive_file_id = gdrive.find_file_by_name(mentor_folder_id, os.path.basename(output_path))
+            if drive_file_id:
+                gdrive.delete_file(drive_file_id)
+                logger.info(f"Deleted duplicate mentor material in Drive: {os.path.basename(output_path)}")
+            gdrive.upload_file(output_path, mentor_folder_id, "application/octet-stream")
             
             processed_files.append(output_path)
         

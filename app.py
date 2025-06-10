@@ -146,11 +146,54 @@ if st.session_state.processing:
     transcript_names = {os.path.splitext(f['name'])[0] for f in transcript_drive_files}
 
     processed_videos = []
+    report_files = []
+
     for idx, video in enumerate(video_files, 1):
         base_name = os.path.splitext(video['name'])[0]
+        video_report_start = time.time()
         if base_name in transcript_names:
-            status_area.info(f"✅ Transcript for video {idx}/{total_videos} ({video['name']}) already exists in Drive. Skipping processing.")
+            status_area.info(f"✅ Transcript for video {idx}/{total_videos} ({video['name']}) already exists in Drive. Generating report...")
             processed_videos.append(base_name)
+            # Download transcript if not local
+            transcript_file = f"{base_name}.txt"
+            local_transcript_path = os.path.join(main_flow.paths["TRANSCRIPTS"], transcript_file)
+            if not os.path.exists(local_transcript_path):
+                file_info = next((f for f in transcript_drive_files if f['name'] == transcript_file), None)
+                if file_info:
+                    gdrive.download_file(file_info["id"], local_transcript_path)
+            # Generate report immediately
+            from src.report_generation.openai_client import OpenAIClient
+            from src.report_generation.report_generator import ReportGenerator
+            with open("config/checklist.txt", "r") as f:
+                checklist = f.read()
+            openai_client = OpenAIClient("config/config.json")
+            client = openai_client.get_client()
+            deployment = openai_client.get_deployment()
+            report_generator = ReportGenerator(client, deployment, checklist)
+            report_generator.generate_reports(
+                main_flow.paths["TRANSCRIPTS"],
+                main_flow.paths["MENTOR_MATERIALS"],
+                main_flow.paths["REPORTS"],
+                main_flow.drive_folders["REPORTS"],
+                only_base_names=[base_name]
+            )
+            video_report_end = time.time()
+            minutes, seconds = divmod(int(video_report_end - video_report_start), 60)
+            st.success(f"✅ Report generated for {base_name} ({minutes}m {seconds}s)")
+            report_file = f"report_{base_name}.txt"
+            report_path = os.path.join(main_flow.paths["REPORTS"], report_file)
+            if os.path.exists(report_path):
+                with st.expander(f"📝 {base_name}"):
+                    with open(report_path, "r", encoding="utf-8") as f:
+                        report_content = f.read()
+                    st.markdown(report_content)
+                    st.download_button(
+                        label=f"Download {report_file}",
+                        data=report_content,
+                        file_name=report_file,
+                        mime="text/plain",
+                        key=f"dl_{report_file}"
+                    )
             continue
 
         status_area.info(f"🎬 Processing video {idx}/{total_videos}: {video['name']}")
@@ -195,6 +238,39 @@ if st.session_state.processing:
                 except Exception:
                     pass
                 processed_videos.append(base_name)
+                # Generate report immediately
+                from src.report_generation.openai_client import OpenAIClient
+                from src.report_generation.report_generator import ReportGenerator
+                with open("config/checklist.txt", "r") as f:
+                    checklist = f.read()
+                openai_client = OpenAIClient("config/config.json")
+                client = openai_client.get_client()
+                deployment = openai_client.get_deployment()
+                report_generator = ReportGenerator(client, deployment, checklist)
+                report_generator.generate_reports(
+                    main_flow.paths["TRANSCRIPTS"],
+                    main_flow.paths["MENTOR_MATERIALS"],
+                    main_flow.paths["REPORTS"],
+                    main_flow.drive_folders["REPORTS"],
+                    only_base_names=[base_name]
+                )
+                video_report_end = time.time()
+                minutes, seconds = divmod(int(video_report_end - video_report_start), 60)
+                st.success(f"✅ Report generated for {base_name} ({minutes}m {seconds}s)")
+                report_file = f"report_{base_name}.txt"
+                report_path = os.path.join(main_flow.paths["REPORTS"], report_file)
+                if os.path.exists(report_path):
+                    with st.expander(f"📝 {base_name}"):
+                        with open(report_path, "r", encoding="utf-8") as f:
+                            report_content = f.read()
+                        st.markdown(report_content)
+                        st.download_button(
+                            label=f"Download {report_file}",
+                            data=report_content,
+                            file_name=report_file,
+                            mime="text/plain",
+                            key=f"dl_{report_file}"
+                        )
             else:
                 st.write(f"❌ Failed to generate transcript for {video['name']}")
         else:
@@ -202,42 +278,9 @@ if st.session_state.processing:
         progress_bar.progress(25 + int(50 * idx / total_videos))
         time.sleep(1)
 
-    # Step 3: Generate reports only for matching transcripts
-    status_area.info("⏳ Step 3/4: Generating quality reports...")
-    from src.preprocessing.gdrive_manager import GoogleDriveManager
-    gdrive = GoogleDriveManager()
-    transcript_drive_files = gdrive.list_txt_files(main_flow.drive_folders["TRANSCRIPTS"])
-    # Only transcripts that match processed_videos
-    matching_transcripts = [f for f in transcript_drive_files if os.path.splitext(f['name'])[0] in processed_videos]
-
-    # Download only matching transcripts
-    for file in matching_transcripts:
-        local_path = os.path.join(main_flow.paths["TRANSCRIPTS"], file["name"])
-        if not os.path.exists(local_path):
-            gdrive.download_file(file["id"], local_path)
-
-    # Generate reports for only matching transcripts
-    from src.report_generation.openai_client import OpenAIClient
-    from src.report_generation.report_generator import ReportGenerator
-    with open("config/checklist.txt", "r") as f:
-        checklist = f.read()
-    openai_client = OpenAIClient("config/config.json")
-    client = openai_client.get_client()
-    deployment = openai_client.get_deployment()
-    report_generator = ReportGenerator(client, deployment, checklist)
-
-    # Only pass the matching transcript files to the report generator
-    report_generator.generate_reports(
-        main_flow.paths["TRANSCRIPTS"],
-        main_flow.paths["MENTOR_MATERIALS"],
-        main_flow.paths["REPORTS"],
-        main_flow.drive_folders["REPORTS"],  # Pass the Drive folder ID directly
-        only_base_names=processed_videos
-    )
     progress_bar.progress(100)
     time.sleep(1)
 
-    status_area.success("✅ Processing completed!")
     st.session_state.processing = False
     st.session_state.reports_generated = True
     st.balloons()
@@ -250,39 +293,3 @@ def sync_reports_from_drive(main_flow):
         local_path = os.path.join(main_flow.paths["REPORTS"], file["name"])
         if not os.path.exists(local_path):
             gdrive.download_file(file["id"], local_path)
-
-# Display Reports
-if st.session_state.reports_generated:
-    # Sync reports before displaying
-    sync_reports_from_drive(main_flow)
-    
-    st.divider()
-    st.subheader("📋 Generated Reports")
-    
-    reports_dir = main_flow.paths["REPORTS"]
-    # Only show reports for processed_videos
-    report_files = [
-        f"report_{base_name}.txt"
-        for base_name in processed_videos
-        if os.path.exists(os.path.join(reports_dir, f"report_{base_name}.txt"))
-    ]
-    
-    if report_files:
-        for report_file in report_files:
-            with st.expander(f"📝 {report_file.replace('report_', '').replace('.txt', '')}"):
-                try:
-                    with open(os.path.join(reports_dir, report_file), "r", encoding="utf-8") as f:
-                        report_content = f.read()
-                    
-                    st.markdown(report_content)
-                    st.download_button(
-                        label=f"Download {report_file}",
-                        data=report_content,
-                        file_name=report_file,
-                        mime="text/plain",
-                        key=f"dl_{report_file}"
-                    )
-                except Exception as e:
-                    st.error(f"Error reading report: {str(e)}")
-    else:
-        st.info("No reports found. Please generate reports first.")
