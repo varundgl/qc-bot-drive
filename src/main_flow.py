@@ -70,11 +70,12 @@ class MainFlow:
             transcript_path = os.path.join(self.paths["TRANSCRIPTS"], f"{base_name}.txt")
 
             video_processor = VideoProcessor()
-            transcript_generator = TranscriptGenerator(
-                os.getenv("AZURE_SPEECH_KEY"),
-                os.getenv("AZURE_SPEECH_REGION")
-            )
-
+            # transcript_generator = TranscriptGenerator(
+            #     os.getenv("AZURE_SPEECH_KEY"),
+            #     os.getenv("AZURE_SPEECH_REGION")
+            # )
+            from src.preprocessing.transcript_generator import TranscriptGenerator
+            transcript_generator = TranscriptGenerator(model_size="base.en", compute_type="int8")
             try:
                 # Convert video to audio
                 if video_processor.convert_mp4_to_wav(video_path, audio_path):

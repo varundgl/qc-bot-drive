@@ -218,10 +218,7 @@ if st.session_state.processing:
                 pass
             st.write(f"- Generating transcript...")
             from src.preprocessing.transcript_generator import TranscriptGenerator
-            transcript_generator = TranscriptGenerator(
-                os.getenv("AZURE_SPEECH_KEY"),
-                os.getenv("AZURE_SPEECH_REGION")
-            )
+            transcript_generator = TranscriptGenerator(model_size="base.en", compute_type="int8")
             transcript_path = os.path.join(main_flow.paths["TRANSCRIPTS"], f"{base_name}.txt")
             if transcript_generator.transcribe_audio(audio_path, transcript_path):
                 st.write(f"- Uploading transcript to Drive...")

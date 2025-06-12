@@ -1874,3 +1874,723 @@
 2025-06-10 17:57:47,734 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
 2025-06-10 17:57:50,386 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
 2025-06-10 17:57:50,388 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-11 16:40:02,636 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:40:08,893 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:40:12,198 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:40:17,080 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:40:21,025 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:40:22,566 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:40:22,630 INFO src.main_flow: Processing mentor materials...
+2025-06-11 16:40:22,958 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:40:26,683 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 16:40:26,887 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:40:30,417 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 16:40:31,483 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:40:33,874 INFO src.preprocessing.gdrive_manager: Downloading file 1XzWzvzNNd204NApNzIGAHFGOfZSoWIKg to videos\Introduction to Agent SDK - Summary.mp4
+2025-06-11 16:40:47,410 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:40:47,425 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Summary.mp4
+2025-06-11 16:40:53,081 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Agent SDK - Summary.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:40:53,628 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:40:53,631 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1XzWzvzNNd204NApNzIGAHFGOfZSoWIKg? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:45:03,235 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:03,236 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:21,591 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:24,238 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:27,540 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:31,359 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:33,015 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:45:33,313 INFO src.main_flow: Processing mentor materials...
+2025-06-11 16:45:33,603 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:45:35,907 INFO src.preprocessing.gdrive_manager: Deleted file 1VwOeIBk1kJ4vdxMjlqtM4EkqfzD3scOs from Drive
+2025-06-11 16:45:35,938 INFO src.main_flow: Deleted duplicate mentor material in Drive: Agent SDK_V1_24-04-25.txt
+2025-06-11 16:45:38,337 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 16:45:38,689 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:45:40,421 INFO src.preprocessing.gdrive_manager: Deleted file 1nBuKPS-AInMY--_tmZvo0K34HK1-i7TX from Drive
+2025-06-11 16:45:40,421 INFO src.main_flow: Deleted duplicate mentor material in Drive: Agent_SDK_+_Google_SDK.txt
+2025-06-11 16:45:46,037 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 16:45:47,206 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:45:49,170 INFO src.preprocessing.gdrive_manager: Downloading file 1XzWzvzNNd204NApNzIGAHFGOfZSoWIKg to videos\Introduction to Agent SDK - Summary.mp4
+2025-06-11 16:46:13,242 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:46:13,242 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Summary.mp4
+2025-06-11 16:46:18,665 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Agent SDK - Summary.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:46:19,304 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:46:19,305 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1XzWzvzNNd204NApNzIGAHFGOfZSoWIKg? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:48:20,805 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:20,818 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:20,820 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:29,880 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:35,978 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:43,850 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:46,631 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:49,914 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:51,465 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 16:48:51,580 INFO src.main_flow: Processing mentor materials...
+2025-06-11 16:48:51,904 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:48:53,638 INFO src.preprocessing.gdrive_manager: Deleted file 1bfpqlUuuksyjoaifvXhG8fKJXUnTYl_r from Drive
+2025-06-11 16:48:53,638 INFO src.main_flow: Deleted duplicate mentor material in Drive: Agent SDK_V1_24-04-25.txt
+2025-06-11 16:48:55,512 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent SDK_V1_24-04-25.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 16:48:55,830 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:48:57,272 INFO src.preprocessing.gdrive_manager: Deleted file 1v2w3VVv2oH3Jw9YL_eVTSG6lk54vRBIZ from Drive
+2025-06-11 16:48:57,273 INFO src.main_flow: Deleted duplicate mentor material in Drive: Agent_SDK_+_Google_SDK.txt
+2025-06-11 16:48:59,512 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\Agent_SDK_+_Google_SDK.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 16:49:00,727 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:49:02,416 INFO src.preprocessing.gdrive_manager: Downloading file 1XzWzvzNNd204NApNzIGAHFGOfZSoWIKg to videos\Introduction to Agent SDK - Summary.mp4
+2025-06-11 16:49:30,059 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:49:30,060 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Summary.mp4
+2025-06-11 16:49:33,298 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Agent SDK - Summary.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:49:33,910 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:49:33,910 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1XzWzvzNNd204NApNzIGAHFGOfZSoWIKg? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:49:35,682 INFO faster_whisper: Processing audio with duration 02:04.885
+2025-06-11 16:49:52,423 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Agent SDK - Summary.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 16:49:53,703 INFO src.preprocessing.gdrive_manager: Deleted file 1Pk10oE8FO9bHYgN5GW7jwKah-imhy8qL from Drive
+2025-06-11 16:49:53,774 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:49:53,778 INFO src.report_generation.report_generator: Generating report for: Introduction to Agent SDK - Summary
+2025-06-11 16:49:53,779 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 16:49:53,779 INFO src.report_generation.report_generator: Transcript length: 1434
+2025-06-11 16:49:53,780 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 16:50:11,631 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 16:50:11,635 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 16:50:11,636 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Agent SDK - Summary.txt
+2025-06-11 16:50:14,338 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Agent SDK - Summary.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 16:50:14,339 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Agent SDK - Summary.txt
+2025-06-11 16:50:17,347 INFO src.preprocessing.gdrive_manager: Downloading file 1rExqkDZ7O-DSWnRKhnvVthEIKM04SO99 to videos\Working of Agent SDK.mp4
+2025-06-11 16:50:27,248 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:50:27,249 INFO src.preprocessing.gdrive_manager: Download complete: videos\Working of Agent SDK.mp4
+2025-06-11 16:50:30,228 INFO src.preprocessing.gdrive_manager: Uploaded audios\Working of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:50:30,807 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:50:30,807 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1rExqkDZ7O-DSWnRKhnvVthEIKM04SO99? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:50:32,232 INFO faster_whisper: Processing audio with duration 01:06.091
+2025-06-11 16:50:42,854 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Working of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 16:50:44,423 INFO src.preprocessing.gdrive_manager: Deleted file 1A-eKnbSrIxRUPuw6ckp_R3lg8OKIxWgD from Drive
+2025-06-11 16:50:44,477 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:50:44,479 INFO src.report_generation.report_generator: Generating report for: Working of Agent SDK
+2025-06-11 16:50:44,479 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 16:50:44,480 INFO src.report_generation.report_generator: Transcript length: 756
+2025-06-11 16:50:44,480 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 16:50:53,967 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 16:50:53,968 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 16:50:53,971 INFO src.report_generation.report_generator: Report saved to reports\report_Working of Agent SDK.txt
+2025-06-11 16:50:56,615 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Working of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 16:50:56,616 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Working of Agent SDK.txt
+2025-06-11 16:50:59,622 INFO src.preprocessing.gdrive_manager: Downloading file 1v3ake2FScR1U1gTanW93hFsJmznistkl to videos\Introduction to Agent SDK - Agenda.mp4
+2025-06-11 16:51:08,200 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:51:08,200 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Agent SDK - Agenda.mp4
+2025-06-11 16:51:11,376 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Agent SDK - Agenda.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:51:11,909 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:51:11,910 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1v3ake2FScR1U1gTanW93hFsJmznistkl? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:51:13,100 INFO faster_whisper: Processing audio with duration 01:10.699
+2025-06-11 16:51:22,351 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Agent SDK - Agenda.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 16:51:29,332 INFO src.preprocessing.gdrive_manager: Deleted file 1SSebWD93dcm7UaWvz0Hb6YjMIGpz2r9k from Drive
+2025-06-11 16:51:29,406 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:51:29,409 INFO src.report_generation.report_generator: Generating report for: Introduction to Agent SDK - Agenda
+2025-06-11 16:51:29,410 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 16:51:29,411 INFO src.report_generation.report_generator: Transcript length: 872
+2025-06-11 16:51:29,411 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 16:51:37,445 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 16:51:37,448 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 16:51:37,450 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Agent SDK - Agenda.txt
+2025-06-11 16:51:42,007 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Agent SDK - Agenda.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 16:51:42,009 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Agent SDK - Agenda.txt
+2025-06-11 16:51:45,021 INFO src.preprocessing.gdrive_manager: Downloading file 17PcDkFkpToOc8lvdNyrFsT89kLDqHWcB to videos\Use case of Agent SDK.mp4
+2025-06-11 16:51:54,037 INFO src.preprocessing.gdrive_manager: Download 13%
+2025-06-11 16:52:04,568 INFO src.preprocessing.gdrive_manager: Download 27%
+2025-06-11 16:52:12,914 INFO src.preprocessing.gdrive_manager: Download 41%
+2025-06-11 16:52:21,019 INFO src.preprocessing.gdrive_manager: Download 54%
+2025-06-11 16:52:29,667 INFO src.preprocessing.gdrive_manager: Download 68%
+2025-06-11 16:52:38,271 INFO src.preprocessing.gdrive_manager: Download 82%
+2025-06-11 16:52:47,917 INFO src.preprocessing.gdrive_manager: Download 96%
+2025-06-11 16:52:52,566 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:52:52,567 INFO src.preprocessing.gdrive_manager: Download complete: videos\Use case of Agent SDK.mp4
+2025-06-11 16:53:03,118 INFO src.preprocessing.gdrive_manager: Uploaded audios\Use case of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:53:03,683 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:53:03,684 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/17PcDkFkpToOc8lvdNyrFsT89kLDqHWcB? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:53:04,997 INFO faster_whisper: Processing audio with duration 19:21.088
+2025-06-11 16:55:51,075 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Use case of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 16:55:52,177 INFO src.preprocessing.gdrive_manager: Deleted file 1iaiwpPhL68gKvfXqCB9Ec0g1Gzv6dJLG from Drive
+2025-06-11 16:55:52,237 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:55:52,239 INFO src.report_generation.report_generator: Generating report for: Use case of Agent SDK
+2025-06-11 16:55:52,240 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 16:55:52,240 INFO src.report_generation.report_generator: Transcript length: 13942
+2025-06-11 16:55:52,241 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 16:55:58,416 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 16:55:58,417 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 16:55:58,419 INFO src.report_generation.report_generator: Report saved to reports\report_Use case of Agent SDK.txt
+2025-06-11 16:56:02,451 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Use case of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 16:56:02,452 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Use case of Agent SDK.txt
+2025-06-11 16:56:05,462 INFO src.preprocessing.gdrive_manager: Downloading file 1rXdwlkZyKIw8dg_mhTYj-N797pgHxZnj to videos\Overview and Key Components of Agent SDK.mp4
+2025-06-11 16:56:21,459 INFO src.preprocessing.gdrive_manager: Download 77%
+2025-06-11 16:56:27,307 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:56:27,307 INFO src.preprocessing.gdrive_manager: Download complete: videos\Overview and Key Components of Agent SDK.mp4
+2025-06-11 16:56:31,634 INFO src.preprocessing.gdrive_manager: Uploaded audios\Overview and Key Components of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:56:32,160 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:56:32,162 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1rXdwlkZyKIw8dg_mhTYj-N797pgHxZnj? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:56:36,104 INFO faster_whisper: Processing audio with duration 03:49.568
+2025-06-11 16:57:25,574 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Overview and Key Components of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 16:57:26,678 INFO src.preprocessing.gdrive_manager: Deleted file 1Y2tOfHKPX25Xod99wgdUayI7uNGA5sYv from Drive
+2025-06-11 16:57:26,837 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:57:26,842 INFO src.report_generation.report_generator: Generating report for: Overview and Key Components of Agent SDK
+2025-06-11 16:57:26,845 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 16:57:26,847 INFO src.report_generation.report_generator: Transcript length: 2408
+2025-06-11 16:57:26,848 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 16:57:34,538 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 16:57:34,540 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 16:57:34,542 INFO src.report_generation.report_generator: Report saved to reports\report_Overview and Key Components of Agent SDK.txt
+2025-06-11 16:57:37,951 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Overview and Key Components of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 16:57:37,952 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Overview and Key Components of Agent SDK.txt
+2025-06-11 16:57:40,958 INFO src.preprocessing.gdrive_manager: Downloading file 1qxH8JBNvaaAJ1xRVilIYIAyVZrhW_3oU to videos\Benefits and Challenges of Agent SDK.mp4
+2025-06-11 16:57:57,925 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 16:57:57,925 INFO src.preprocessing.gdrive_manager: Download complete: videos\Benefits and Challenges of Agent SDK.mp4
+2025-06-11 16:58:02,110 INFO src.preprocessing.gdrive_manager: Uploaded audios\Benefits and Challenges of Agent SDK.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 16:58:02,626 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 16:58:02,628 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1qxH8JBNvaaAJ1xRVilIYIAyVZrhW_3oU? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 16:58:03,489 INFO faster_whisper: Processing audio with duration 02:26.539
+2025-06-11 16:58:21,759 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Benefits and Challenges of Agent SDK.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 16:58:22,810 INFO src.preprocessing.gdrive_manager: Deleted file 1qP5y2C_599AVCUqn3Gbd7buytc2lHbRW from Drive
+2025-06-11 16:58:22,870 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 16:58:22,873 INFO src.report_generation.report_generator: Generating report for: Benefits and Challenges of Agent SDK
+2025-06-11 16:58:22,873 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 16:58:22,874 INFO src.report_generation.report_generator: Transcript length: 1738
+2025-06-11 16:58:22,874 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 16:58:31,838 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 16:58:31,840 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 16:58:31,842 INFO src.report_generation.report_generator: Report saved to reports\report_Benefits and Challenges of Agent SDK.txt
+2025-06-11 16:58:34,542 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Benefits and Challenges of Agent SDK.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 16:58:34,543 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Benefits and Challenges of Agent SDK.txt
+2025-06-11 17:06:49,519 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:06:49,521 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:07:02,920 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:07:07,574 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:07:16,166 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:07:16,176 INFO src.main_flow: Processing mentor materials...
+2025-06-11 17:07:16,430 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:07:19,359 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 17:07:20,701 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:07:22,250 INFO src.preprocessing.gdrive_manager: Downloading file 1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL to videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 17:07:48,496 INFO src.preprocessing.gdrive_manager: Download 62%
+2025-06-11 17:08:03,654 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:08:03,655 INFO src.preprocessing.gdrive_manager: Download complete: videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 17:08:15,623 INFO src.preprocessing.gdrive_manager: Uploaded audios\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:08:16,125 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:08:16,127 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:08:20,231 INFO faster_whisper: Processing audio with duration 24:34.723
+2025-06-11 17:18:57,879 INFO src.preprocessing.gdrive_manager: Downloading file 1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 17:19:05,869 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:19:05,870 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 17:19:11,354 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:19:12,228 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:19:12,230 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:19:14,884 INFO faster_whisper: Processing audio with duration 07:46.535
+2025-06-11 17:21:15,629 INFO src.preprocessing.gdrive_manager: Downloading file 1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247 to videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 17:21:27,394 INFO src.preprocessing.gdrive_manager: Download 89%
+2025-06-11 17:21:31,235 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:21:31,237 INFO src.preprocessing.gdrive_manager: Download complete: videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 17:21:37,680 INFO src.preprocessing.gdrive_manager: Uploaded audios\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:21:38,231 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:21:38,232 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:21:39,446 INFO faster_whisper: Processing audio with duration 16:30.935
+2025-06-11 17:23:45,717 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:23:45,718 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:23:54,107 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:24:38,220 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:24:44,184 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:24:48,342 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:24:50,433 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:24:50,564 INFO src.main_flow: Processing mentor materials...
+2025-06-11 17:24:50,942 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:24:54,001 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 17:24:55,067 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:24:56,664 INFO src.preprocessing.gdrive_manager: Downloading file 1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL to videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 17:25:16,430 INFO src.preprocessing.gdrive_manager: Download 62%
+2025-06-11 17:25:29,730 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:25:29,730 INFO src.preprocessing.gdrive_manager: Download complete: videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 17:25:44,283 INFO src.preprocessing.gdrive_manager: Uploaded audios\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:25:44,821 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:25:44,823 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:25:48,492 INFO faster_whisper: Processing audio with duration 24:34.723
+2025-06-11 17:35:19,921 INFO src.preprocessing.gdrive_manager: Downloading file 1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 17:35:28,336 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:35:28,339 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 17:35:33,733 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:35:36,536 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:35:36,538 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:35:39,778 INFO faster_whisper: Processing audio with duration 07:46.535
+2025-06-11 17:37:51,672 INFO src.preprocessing.gdrive_manager: Downloading file 1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247 to videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 17:38:00,634 INFO src.preprocessing.gdrive_manager: Download 89%
+2025-06-11 17:38:04,557 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:38:04,557 INFO src.preprocessing.gdrive_manager: Download complete: videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 17:38:11,562 INFO src.preprocessing.gdrive_manager: Uploaded audios\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:38:12,089 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:38:12,090 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:38:13,144 INFO faster_whisper: Processing audio with duration 16:30.935
+2025-06-11 17:41:11,587 INFO src.preprocessing.gdrive_manager: Downloading file 140g-cINJpKxRwtZSGkeFUl2MXTfLcmBh to videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-11 17:41:20,185 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:41:20,185 INFO src.preprocessing.gdrive_manager: Download complete: videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-11 17:41:26,417 INFO src.preprocessing.gdrive_manager: Uploaded audios\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:41:26,973 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:41:26,973 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/140g-cINJpKxRwtZSGkeFUl2MXTfLcmBh? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:41:27,842 INFO faster_whisper: Processing audio with duration 07:50.738
+2025-06-11 17:41:52,035 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:42:00,743 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:42:04,496 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:42:13,041 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:42:13,082 INFO src.main_flow: Processing mentor materials...
+2025-06-11 17:42:13,583 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:42:15,166 INFO src.preprocessing.gdrive_manager: Deleted file 12JsBRKkejjon6N9SLZGF7HNe50v-56mw from Drive
+2025-06-11 17:42:15,167 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-11 17:42:16,680 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 17:42:18,005 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:42:19,466 INFO src.preprocessing.gdrive_manager: Downloading file 1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL to videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 17:42:31,602 INFO src.preprocessing.gdrive_manager: Download 62%
+2025-06-11 17:42:38,317 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:42:38,324 INFO src.preprocessing.gdrive_manager: Download complete: videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 17:42:47,981 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:42:47,983 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:43:26,775 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:43:26,777 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:43:34,174 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:43:39,330 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:43:40,696 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 17:43:40,773 INFO src.main_flow: Processing mentor materials...
+2025-06-11 17:43:41,452 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:43:43,057 INFO src.preprocessing.gdrive_manager: Deleted file 1hbnOis68oy9lGpF5s8dzRWvFGV-77yZI from Drive
+2025-06-11 17:43:43,058 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-11 17:43:44,756 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 17:43:46,031 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:43:48,148 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:43:48,155 INFO src.report_generation.report_generator: Generating report for: Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV
+2025-06-11 17:43:48,180 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 17:43:48,182 INFO src.report_generation.report_generator: Transcript length: 18756
+2025-06-11 17:43:48,188 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 17:43:57,363 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 17:43:57,370 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 17:43:57,376 INFO src.report_generation.report_generator: Report saved to reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-11 17:44:04,857 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 17:44:04,858 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-11 17:44:06,878 INFO src.preprocessing.gdrive_manager: Downloading file 1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 17:44:15,812 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:44:15,814 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 17:44:25,318 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:44:25,942 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:44:25,943 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:44:28,544 INFO faster_whisper: Processing audio with duration 07:46.535
+2025-06-11 17:47:34,359 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 17:47:35,392 INFO src.preprocessing.gdrive_manager: Deleted file 1YtyWrWHoAa8M4ytMyk3NIMwsoWGOXqBa from Drive
+2025-06-11 17:47:35,639 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 17:47:35,645 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-11 17:47:35,648 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 17:47:35,649 INFO src.report_generation.report_generator: Transcript length: 7041
+2025-06-11 17:47:35,652 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 17:47:44,152 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 17:47:44,155 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 17:47:44,161 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-11 17:47:46,782 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 17:47:46,783 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-11 17:47:49,793 INFO src.preprocessing.gdrive_manager: Downloading file 1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247 to videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 17:47:56,834 INFO src.preprocessing.gdrive_manager: Download 89%
+2025-06-11 17:48:00,267 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 17:48:00,270 INFO src.preprocessing.gdrive_manager: Download complete: videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 17:48:09,449 INFO src.preprocessing.gdrive_manager: Uploaded audios\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 17:48:10,060 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 17:48:10,064 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 17:48:12,530 INFO faster_whisper: Processing audio with duration 16:30.935
+2025-06-11 20:32:03,317 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 20:32:04,796 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 20:41:13,155 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 20:41:34,647 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 20:41:37,684 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 20:41:39,160 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-11 20:41:39,182 INFO src.main_flow: Processing mentor materials...
+2025-06-11 20:41:39,537 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 20:41:43,274 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-11 20:41:44,483 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 20:41:46,245 INFO src.preprocessing.gdrive_manager: Downloading file 1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL to videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 20:41:55,093 INFO src.preprocessing.gdrive_manager: Download 62%
+2025-06-11 20:42:00,932 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 20:42:00,933 INFO src.preprocessing.gdrive_manager: Download complete: videos\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.mp4
+2025-06-11 20:42:14,394 INFO src.preprocessing.gdrive_manager: Uploaded audios\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 20:42:15,118 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 20:42:15,120 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1_p-0pLLZo7dajxmMwELZWxcWx-EVHmBL? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 20:42:18,624 INFO faster_whisper: Processing audio with duration 24:34.723
+2025-06-11 20:50:51,523 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 20:50:52,532 INFO src.preprocessing.gdrive_manager: Deleted file 12PHOTLkxmi03cUyv_tlTxkV4I8-iYTYL from Drive
+2025-06-11 20:50:52,807 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 20:50:52,816 INFO src.report_generation.report_generator: Generating report for: Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV
+2025-06-11 20:50:52,819 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 20:50:52,821 INFO src.report_generation.report_generator: Transcript length: 19273
+2025-06-11 20:50:52,824 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 20:51:01,884 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 20:51:01,891 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 20:51:01,895 INFO src.report_generation.report_generator: Report saved to reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-11 20:51:03,415 INFO src.preprocessing.gdrive_manager: Deleted file 1C3sJlC4WCx14pYTYJntqtgR7idLvgZLu from Drive
+2025-06-11 20:51:03,416 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-11 20:51:05,755 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 20:51:05,756 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-11 20:51:08,767 INFO src.preprocessing.gdrive_manager: Downloading file 1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT to videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 20:51:15,142 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 20:51:15,143 INFO src.preprocessing.gdrive_manager: Download complete: videos\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.mp4
+2025-06-11 20:51:25,929 INFO src.preprocessing.gdrive_manager: Uploaded audios\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 20:51:26,544 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 20:51:26,545 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1EaUZUfxSZXgEYE_UMSUIK-DzyHW6E8UT? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 20:51:28,493 INFO faster_whisper: Processing audio with duration 07:46.535
+2025-06-11 20:54:22,160 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 20:54:23,486 INFO src.preprocessing.gdrive_manager: Deleted file 1NcXzrQt4gY8FO-yRA6hX2WaWbY1ORE8E from Drive
+2025-06-11 20:54:23,735 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 20:54:23,741 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-11 20:54:23,742 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 20:54:23,743 INFO src.report_generation.report_generator: Transcript length: 7078
+2025-06-11 20:54:23,744 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 20:54:31,273 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 20:54:31,278 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 20:54:31,281 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-11 20:54:32,916 INFO src.preprocessing.gdrive_manager: Deleted file 163yb8LxNpx3EBa771Qk63Y1b4NsacWER from Drive
+2025-06-11 20:54:32,918 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-11 20:54:34,961 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 20:54:34,963 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-11 20:54:37,977 INFO src.preprocessing.gdrive_manager: Downloading file 1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247 to videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 20:54:44,949 INFO src.preprocessing.gdrive_manager: Download 89%
+2025-06-11 20:54:48,339 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 20:54:48,343 INFO src.preprocessing.gdrive_manager: Download complete: videos\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.mp4
+2025-06-11 20:55:01,282 INFO src.preprocessing.gdrive_manager: Uploaded audios\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 20:55:01,842 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 20:55:01,844 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1G0OA4EBIsgBSrt9ddniQ3s5X04YkU247? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 20:55:04,629 INFO faster_whisper: Processing audio with duration 16:30.935
+2025-06-11 20:59:30,792 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 20:59:32,125 INFO src.preprocessing.gdrive_manager: Deleted file 1Jb4EeRajlveJpCExBJkwEOrx_OUAX_fq from Drive
+2025-06-11 20:59:32,219 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 20:59:32,222 INFO src.report_generation.report_generator: Generating report for: Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV
+2025-06-11 20:59:32,222 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 20:59:32,223 INFO src.report_generation.report_generator: Transcript length: 11306
+2025-06-11 20:59:32,223 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 20:59:39,963 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 20:59:39,965 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 20:59:39,968 INFO src.report_generation.report_generator: Report saved to reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-11 20:59:42,697 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 20:59:42,698 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-11 20:59:45,713 INFO src.preprocessing.gdrive_manager: Downloading file 140g-cINJpKxRwtZSGkeFUl2MXTfLcmBh to videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-11 20:59:54,640 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 20:59:54,641 INFO src.preprocessing.gdrive_manager: Download complete: videos\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.mp4
+2025-06-11 21:00:00,731 INFO src.preprocessing.gdrive_manager: Uploaded audios\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:00:01,523 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:00:01,524 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/140g-cINJpKxRwtZSGkeFUl2MXTfLcmBh? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:00:02,728 INFO faster_whisper: Processing audio with duration 07:50.738
+2025-06-11 21:01:42,379 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:01:43,694 INFO src.preprocessing.gdrive_manager: Deleted file 1tYkM8itIw_bEIMqj1RvNx1hiUYs4R1s3 from Drive
+2025-06-11 21:01:43,784 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:01:43,787 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-11 21:01:43,788 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:01:43,789 INFO src.report_generation.report_generator: Transcript length: 7686
+2025-06-11 21:01:43,789 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:01:52,925 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:01:52,926 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:01:52,928 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-11 21:02:04,368 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:02:04,369 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-11 21:02:07,378 INFO src.preprocessing.gdrive_manager: Downloading file 19sMAdsxUzgPbbbirjk5I50X18LN2I2i0 to videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-11 21:02:16,259 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:02:16,260 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.mp4
+2025-06-11 21:02:20,470 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:02:21,086 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:02:21,087 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/19sMAdsxUzgPbbbirjk5I50X18LN2I2i0? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:02:22,164 INFO faster_whisper: Processing audio with duration 04:07.037
+2025-06-11 21:02:58,563 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:02:59,689 INFO src.preprocessing.gdrive_manager: Deleted file 10GJtfLjvro2cj60iDXrhCqU2DV_9361R from Drive
+2025-06-11 21:02:59,788 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:02:59,791 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-11 21:02:59,792 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:02:59,792 INFO src.report_generation.report_generator: Transcript length: 2348
+2025-06-11 21:02:59,793 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:03:09,397 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:03:09,399 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:03:09,402 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-11 21:03:12,403 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:03:12,404 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-11 21:03:15,412 INFO src.preprocessing.gdrive_manager: Downloading file 1W0gWSyzzGNLKsKsy-22Pa9xW8jKdD7XY to videos\Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.mp4
+2025-06-11 21:03:27,897 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:03:27,897 INFO src.preprocessing.gdrive_manager: Download complete: videos\Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.mp4
+2025-06-11 21:03:37,171 INFO src.preprocessing.gdrive_manager: Uploaded audios\Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:03:37,782 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:03:37,783 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1W0gWSyzzGNLKsKsy-22Pa9xW8jKdD7XY? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:03:39,036 INFO faster_whisper: Processing audio with duration 18:41.640
+2025-06-11 21:06:43,638 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:06:44,764 INFO src.preprocessing.gdrive_manager: Deleted file 1ONLB0s1bAuBoL_b6MBneck363JyENKQr from Drive
+2025-06-11 21:06:44,853 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:06:44,855 INFO src.report_generation.report_generator: Generating report for: Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV
+2025-06-11 21:06:44,856 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:06:44,857 INFO src.report_generation.report_generator: Transcript length: 13926
+2025-06-11 21:06:44,857 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:06:55,517 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:06:55,520 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:06:55,523 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-11 21:06:58,150 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:06:58,151 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-11 21:07:01,161 INFO src.preprocessing.gdrive_manager: Downloading file 1U5fTCgQ-tirE6uSWKDeNCh9XOGzzIhL8 to videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-11 21:07:08,831 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:07:08,831 INFO src.preprocessing.gdrive_manager: Download complete: videos\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.mp4
+2025-06-11 21:07:12,413 INFO src.preprocessing.gdrive_manager: Uploaded audios\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:07:13,125 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:07:13,126 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1U5fTCgQ-tirE6uSWKDeNCh9XOGzzIhL8? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:07:14,045 INFO faster_whisper: Processing audio with duration 02:51.596
+2025-06-11 21:07:51,119 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:07:52,247 INFO src.preprocessing.gdrive_manager: Deleted file 1-89pSx7HHPClYuCU177JI_DYAK84GU_b from Drive
+2025-06-11 21:07:52,335 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:07:52,338 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-11 21:07:52,339 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:07:52,340 INFO src.report_generation.report_generator: Transcript length: 2002
+2025-06-11 21:07:52,340 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:08:01,976 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:08:01,978 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:08:01,981 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-11 21:08:04,536 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:08:04,538 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-11 21:08:07,550 INFO src.preprocessing.gdrive_manager: Downloading file 1X9Z6ieOK3XqmraX0cjKlax-OSttEzzVe to videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-11 21:08:17,143 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:08:17,144 INFO src.preprocessing.gdrive_manager: Download complete: videos\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.mp4
+2025-06-11 21:08:20,375 INFO src.preprocessing.gdrive_manager: Uploaded audios\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:08:21,021 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:08:21,022 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1X9Z6ieOK3XqmraX0cjKlax-OSttEzzVe? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:08:21,988 INFO faster_whisper: Processing audio with duration 02:20.295
+2025-06-11 21:08:38,991 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:08:40,228 INFO src.preprocessing.gdrive_manager: Deleted file 1eDw7GB5zVns0GhT5aCZQ_Tdxh7A_qG9I from Drive
+2025-06-11 21:08:40,314 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:08:40,317 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-11 21:08:40,318 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:08:40,318 INFO src.report_generation.report_generator: Transcript length: 1585
+2025-06-11 21:08:40,319 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:08:48,259 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:08:48,262 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:08:48,265 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-11 21:08:51,739 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:08:51,740 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-11 21:08:54,749 INFO src.preprocessing.gdrive_manager: Downloading file 1O8xYDGWLdrGs6HwgVozMziPZ4zoXpVnB to videos\Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.mp4
+2025-06-11 21:09:04,658 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:09:04,659 INFO src.preprocessing.gdrive_manager: Download complete: videos\Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.mp4
+2025-06-11 21:09:11,194 INFO src.preprocessing.gdrive_manager: Uploaded audios\Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:09:11,814 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:09:11,815 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1O8xYDGWLdrGs6HwgVozMziPZ4zoXpVnB? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:09:12,904 INFO faster_whisper: Processing audio with duration 11:57.520
+2025-06-11 21:11:17,660 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:11:18,711 INFO src.preprocessing.gdrive_manager: Deleted file 1bzgIZJWDqtFqk4FWDxwx55QlB8DYjI6i from Drive
+2025-06-11 21:11:18,850 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:11:18,854 INFO src.report_generation.report_generator: Generating report for: Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV
+2025-06-11 21:11:18,855 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:11:18,856 INFO src.report_generation.report_generator: Transcript length: 7995
+2025-06-11 21:11:18,857 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:11:26,349 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:11:26,350 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:11:26,353 INFO src.report_generation.report_generator: Report saved to reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-11 21:11:29,028 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:11:29,029 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-11 21:11:32,038 INFO src.preprocessing.gdrive_manager: Downloading file 14J138gHktu8o5QwbmxDQm-sPOxsm0RdB to videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-11 21:11:45,153 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:11:45,153 INFO src.preprocessing.gdrive_manager: Download complete: videos\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.mp4
+2025-06-11 21:11:52,067 INFO src.preprocessing.gdrive_manager: Uploaded audios\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:11:53,194 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:11:53,195 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/14J138gHktu8o5QwbmxDQm-sPOxsm0RdB? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:11:54,459 INFO faster_whisper: Processing audio with duration 14:12.288
+2025-06-11 21:15:30,896 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:15:32,030 INFO src.preprocessing.gdrive_manager: Deleted file 1INSzXCwu775mxXcCIx4ryd06dKtl5lvZ from Drive
+2025-06-11 21:15:32,167 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:15:32,173 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-11 21:15:32,174 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:15:32,175 INFO src.report_generation.report_generator: Transcript length: 10395
+2025-06-11 21:15:32,175 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:15:39,864 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:15:39,868 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:15:39,873 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-11 21:15:43,696 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:15:43,697 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-11 21:15:46,715 INFO src.preprocessing.gdrive_manager: Downloading file 1d4ApBvrDrL6N95gNnlKm5Y7klmqPNagx to videos\PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.mp4
+2025-06-11 21:15:57,083 INFO src.preprocessing.gdrive_manager: Download 89%
+2025-06-11 21:16:00,798 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:16:00,799 INFO src.preprocessing.gdrive_manager: Download complete: videos\PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.mp4
+2025-06-11 21:16:08,790 INFO src.preprocessing.gdrive_manager: Uploaded audios\PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:16:09,399 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:16:09,401 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1d4ApBvrDrL6N95gNnlKm5Y7klmqPNagx? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:16:10,693 INFO faster_whisper: Processing audio with duration 12:45.469
+2025-06-11 21:18:46,994 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:18:48,496 INFO src.preprocessing.gdrive_manager: Deleted file 14SIUv5f9mpw6tCihSxSq-DlRW4H-Tvu- from Drive
+2025-06-11 21:18:48,588 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:18:48,590 INFO src.report_generation.report_generator: Generating report for: PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV
+2025-06-11 21:18:48,591 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:18:48,593 INFO src.report_generation.report_generator: Transcript length: 8209
+2025-06-11 21:18:48,594 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:18:57,239 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:18:57,241 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:18:57,243 INFO src.report_generation.report_generator: Report saved to reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-11 21:18:59,792 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:18:59,793 INFO src.report_generation.report_generator: Uploaded report to Drive: report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-11 21:19:02,805 INFO src.preprocessing.gdrive_manager: Downloading file 1of5iOBc45DO0VupDlNvRSEcTQo5qATO4 to videos\Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.mp4
+2025-06-11 21:19:09,613 INFO src.preprocessing.gdrive_manager: Download 100%
+2025-06-11 21:19:09,614 INFO src.preprocessing.gdrive_manager: Download complete: videos\Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.mp4
+2025-06-11 21:19:15,220 INFO src.preprocessing.gdrive_manager: Uploaded audios\Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.wav to Drive folder 1bLbSXaO3AS-EuBg_o7sGc8AonkHt7SdG
+2025-06-11 21:19:15,873 WARNING googleapiclient.http: Encountered 403 Forbidden with reason "insufficientFilePermissions"
+2025-06-11 21:19:15,875 ERROR src.preprocessing.gdrive_manager: An error occurred: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/1of5iOBc45DO0VupDlNvRSEcTQo5qATO4? returned "The user does not have sufficient permissions for this file.". Details: "[{'message': 'The user does not have sufficient permissions for this file.', 'domain': 'global', 'reason': 'insufficientFilePermissions'}]">
+2025-06-11 21:19:17,070 INFO faster_whisper: Processing audio with duration 09:39.106
+2025-06-11 21:21:09,942 INFO src.preprocessing.gdrive_manager: Uploaded transcripts\Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt to Drive folder 1TbqLgYXOguxYivMiy17s1UVqUKxpGtt3
+2025-06-11 21:21:11,406 INFO src.preprocessing.gdrive_manager: Deleted file 1JxzCDNp_OQ-6LV73vPxnvsfsMh7Qrs7_ from Drive
+2025-06-11 21:21:11,505 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-11 21:21:11,508 INFO src.report_generation.report_generator: Generating report for: Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV
+2025-06-11 21:21:11,509 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-11 21:21:11,509 INFO src.report_generation.report_generator: Transcript length: 7761
+2025-06-11 21:21:11,510 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-11 21:21:22,439 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-11 21:21:22,443 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-11 21:21:22,446 INFO src.report_generation.report_generator: Report saved to reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-11 21:21:24,986 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-11 21:21:24,987 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-11 23:27:03,841 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-12 10:52:39,791 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-12 11:04:13,510 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-12 11:10:58,333 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-12 11:11:03,922 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-12 11:11:05,247 INFO src.main_flow: Initializing MainFlow with config: config/config.json
+2025-06-12 11:11:05,264 INFO src.main_flow: Processing mentor materials...
+2025-06-12 11:11:05,428 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:11:07,576 INFO src.preprocessing.gdrive_manager: Deleted file 1pfwhR6KSvgPBDTKxlFnCsMYq3pK6v_mY from Drive
+2025-06-12 11:11:07,578 INFO src.main_flow: Deleted duplicate mentor material in Drive: ChatGPT for Business Communication_Final.txt
+2025-06-12 11:11:09,180 INFO src.preprocessing.gdrive_manager: Uploaded mentor_materials\ChatGPT for Business Communication_Final.txt to Drive folder 1OVhmzLD5NHmrHknSSWwAYC_NVlD39-sh
+2025-06-12 11:11:10,255 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:11:11,938 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:11:11,941 INFO src.report_generation.report_generator: Generating report for: Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV
+2025-06-12 11:11:11,941 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:11:11,942 INFO src.report_generation.report_generator: Transcript length: 19273
+2025-06-12 11:11:11,942 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:11:20,378 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:11:20,382 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:11:20,385 INFO src.report_generation.report_generator: Report saved to reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-12 11:11:22,425 INFO src.preprocessing.gdrive_manager: Deleted file 19URfse7iAebXJwhLvMzKoSEjqy9o9JIS from Drive
+2025-06-12 11:11:22,426 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-12 11:11:24,106 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:11:24,107 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Emails_ Reports_ and Proposals_Wednesday_ March 15_ 2023 at 3_33_38 PM - 613_default_a34af5b2_SV.txt
+2025-06-12 11:11:26,205 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:11:26,207 INFO src.report_generation.report_generator: Generating report for: ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV
+2025-06-12 11:11:26,208 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:11:26,208 INFO src.report_generation.report_generator: Transcript length: 7078
+2025-06-12 11:11:26,209 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:11:33,487 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:11:33,489 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:11:33,491 INFO src.report_generation.report_generator: Report saved to reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-12 11:11:35,121 INFO src.preprocessing.gdrive_manager: Deleted file 1p3yXElrgIw9N-lC2hGl3QBhs62mwuxMu from Drive
+2025-06-12 11:11:35,123 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-12 11:11:37,375 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:11:37,376 INFO src.report_generation.report_generator: Uploaded report to Drive: report_ChatGPT for Business Communication_Wednesday_ March 15_ 2023 at 3_06_09 PM - 611_default_bcf1234c_SV.txt
+2025-06-12 11:11:39,475 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:11:39,478 INFO src.report_generation.report_generator: Generating report for: Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV
+2025-06-12 11:11:39,479 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:11:39,479 INFO src.report_generation.report_generator: Transcript length: 11306
+2025-06-12 11:11:39,480 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:11:49,125 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:11:49,127 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:11:49,131 INFO src.report_generation.report_generator: Report saved to reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-12 11:11:50,891 INFO src.preprocessing.gdrive_manager: Deleted file 1_L46r1I4fFkPXpJOn2X9LItufIXi3UcP from Drive
+2025-06-12 11:11:50,892 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-12 11:11:52,750 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:11:52,751 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Resumes_ Cover Letters_ and SOPs_Wednesday_ March 15_ 2023 at 3_59_29 PM - 614_default_a150668b_SV.txt
+2025-06-12 11:11:54,851 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:11:54,854 INFO src.report_generation.report_generator: Generating report for: Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV
+2025-06-12 11:11:54,855 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:11:54,855 INFO src.report_generation.report_generator: Transcript length: 7686
+2025-06-12 11:11:54,855 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:12:02,054 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:12:02,055 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:12:02,057 INFO src.report_generation.report_generator: Report saved to reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-12 11:12:03,794 INFO src.preprocessing.gdrive_manager: Deleted file 1xt4HniTopjCxwzD38CgCAiVb_PeIldXA from Drive
+2025-06-12 11:12:03,795 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-12 11:12:05,637 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:12:05,638 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Leveraging ChatGPT in Business Communication_Wednesday_ March 15_ 2023 at 3_21_46 PM - 612_default_282b2a4d_SV.txt
+2025-06-12 11:12:07,728 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:12:07,731 INFO src.report_generation.report_generator: Generating report for: Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV
+2025-06-12 11:12:07,732 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:12:07,732 INFO src.report_generation.report_generator: Transcript length: 2348
+2025-06-12 11:12:07,733 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:12:14,751 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:12:14,754 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:12:14,757 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-12 11:12:16,593 INFO src.preprocessing.gdrive_manager: Deleted file 1zZJYiaZQD1yw46foNDpUlkUOsB3ZDxiz from Drive
+2025-06-12 11:12:16,594 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-12 11:12:18,194 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:12:18,195 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Power Query Friday_ 1 December_ 2023 at 12_31_35 PM_2524_SV.txt
+2025-06-12 11:12:20,283 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:12:20,286 INFO src.report_generation.report_generator: Generating report for: Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV
+2025-06-12 11:12:20,287 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:12:20,287 INFO src.report_generation.report_generator: Transcript length: 13926
+2025-06-12 11:12:20,288 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:12:28,699 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:12:28,701 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:12:28,704 INFO src.report_generation.report_generator: Report saved to reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-12 11:12:30,518 INFO src.preprocessing.gdrive_manager: Deleted file 1uzGiIzyZtb5C1OsFX7O6VACAwGylURUW from Drive
+2025-06-12 11:12:30,519 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-12 11:12:32,753 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:12:32,754 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Introduction to Automation in Excel Friday_ 1 December_ 2023 at 11_19_37 AM_2520_SV.txt
+2025-06-12 11:12:34,849 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:12:34,851 INFO src.report_generation.report_generator: Generating report for: Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV
+2025-06-12 11:12:34,852 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:12:34,852 INFO src.report_generation.report_generator: Transcript length: 2002
+2025-06-12 11:12:34,853 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:12:42,836 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:12:42,839 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:12:42,842 INFO src.report_generation.report_generator: Report saved to reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-12 11:12:44,650 INFO src.preprocessing.gdrive_manager: Deleted file 1cObGuZKEwYfsUsvATO9rFqODSowj_Vqf from Drive
+2025-06-12 11:12:44,651 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-12 11:12:46,596 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:12:46,597 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Agenda- Automation in Excel Friday_ 1 December_ 2023 at 11_15_25 AM_2519_SV.txt
+2025-06-12 11:12:48,694 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:12:48,697 INFO src.report_generation.report_generator: Generating report for: Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV
+2025-06-12 11:12:48,698 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:12:48,698 INFO src.report_generation.report_generator: Transcript length: 1585
+2025-06-12 11:12:48,699 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:12:57,658 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:12:57,661 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:12:57,664 INFO src.report_generation.report_generator: Report saved to reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-12 11:13:00,108 INFO src.preprocessing.gdrive_manager: Deleted file 1yvGtj1n21SHRY1d-Np9E-xPU7ydPM-gc from Drive
+2025-06-12 11:13:00,109 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-12 11:13:02,366 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:13:02,367 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Summary - Automation in Excel Friday_ 1 December_ 2023 at 12_47_35 PM_2526_SV.txt
+2025-06-12 11:13:04,474 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:13:04,477 INFO src.report_generation.report_generator: Generating report for: Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV
+2025-06-12 11:13:04,477 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:13:04,478 INFO src.report_generation.report_generator: Transcript length: 7995
+2025-06-12 11:13:04,479 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:13:12,197 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:13:12,199 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:13:12,201 INFO src.report_generation.report_generator: Report saved to reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-12 11:13:13,734 INFO src.preprocessing.gdrive_manager: Deleted file 16VNJDssB_AHm5WRFgnKwwRP9vSMag8AM from Drive
+2025-06-12 11:13:13,734 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-12 11:13:16,087 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:13:16,089 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.txt
+2025-06-12 11:13:18,189 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:13:18,192 INFO src.report_generation.report_generator: Generating report for: Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV
+2025-06-12 11:13:18,192 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:13:18,193 INFO src.report_generation.report_generator: Transcript length: 10395
+2025-06-12 11:13:18,193 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:13:29,298 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:13:29,300 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:13:29,303 INFO src.report_generation.report_generator: Report saved to reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-12 11:13:31,243 INFO src.preprocessing.gdrive_manager: Deleted file 1f_0jBkMOGciH3U5l619-f7YqsWP3bQVa from Drive
+2025-06-12 11:13:31,244 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-12 11:13:33,599 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:13:33,600 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Using Functions for Automation Friday_ 1 December_ 2023 at 11_42_58 AM_2521_SV.txt
+2025-06-12 11:13:35,702 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:13:35,705 INFO src.report_generation.report_generator: Generating report for: PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV
+2025-06-12 11:13:35,706 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:13:35,707 INFO src.report_generation.report_generator: Transcript length: 8209
+2025-06-12 11:13:35,707 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:13:47,781 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:13:47,783 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:13:47,786 INFO src.report_generation.report_generator: Report saved to reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-12 11:13:49,753 INFO src.preprocessing.gdrive_manager: Deleted file 1lT3k8tJzIZSbOfPXvf1JpAt1ri1DMSLQ from Drive
+2025-06-12 11:13:49,754 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-12 11:13:51,908 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:13:51,911 INFO src.report_generation.report_generator: Uploaded report to Drive: report_PivotTables for Automation Friday_ 1 December_ 2023 at 12_15_56 PM_2523_SV.txt
+2025-06-12 11:13:54,006 INFO googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-06-12 11:13:54,009 INFO src.report_generation.report_generator: Generating report for: Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV
+2025-06-12 11:13:54,009 INFO src.report_generation.report_generator: Calling Azure OpenAI API for quality check...
+2025-06-12 11:13:54,010 INFO src.report_generation.report_generator: Transcript length: 7761
+2025-06-12 11:13:54,010 INFO src.report_generation.report_generator: Checklist length: 2361
+2025-06-12 11:14:02,271 INFO httpx: HTTP Request: POST https://tst123451307193883.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-06-12 11:14:02,273 INFO src.report_generation.report_generator: Received response from Azure OpenAI API.
+2025-06-12 11:14:02,276 INFO src.report_generation.report_generator: Report saved to reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-12 11:14:04,012 INFO src.preprocessing.gdrive_manager: Deleted file 1gRK9LAs7q9Xml4QjSbMUhND-mrKlII15 from Drive
+2025-06-12 11:14:04,013 INFO src.report_generation.report_generator: Deleted duplicate report in Drive: report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
+2025-06-12 11:14:06,366 INFO src.preprocessing.gdrive_manager: Uploaded reports\report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt to Drive folder 1JgwDdQVc1YsyKNhag5l1PdD607vMjy1H
+2025-06-12 11:14:06,367 INFO src.report_generation.report_generator: Uploaded report to Drive: report_Automating Excel using AI tools Friday_ 1 December_ 2023 at 12_37_06 PM_2525_SV.txt
