@@ -150,18 +150,10 @@ class TranscriptGenerator:
         file_written = os.path.exists(output_text_file) and os.path.getsize(output_text_file) > 100  # >100 bytes means not just header
 
         if not all_words:
-            print("⚠️ No words recognized by the model.")
+            print(" No words recognized by the model.")
         if file_written:
-            print(f"✅ Transcript saved to {output_text_file}")
+            print(f" Transcript saved to {output_text_file}")
         else:
-            print(f"❌ Transcript file is empty or only contains header: {output_text_file}")
+            print(f" Transcript file is empty or only contains header: {output_text_file}")
 
         return file_written
-
-
-# if __name__ == "__main__":
-#     tg = TranscriptGenerator()
-#     audio_path = r"../../audios/Conditional Formatting for Automation Friday_ 1 December_ 2023 at 11_58_47 AM_2522_SV.wav"
-#     print("Looking for:", os.path.abspath(audio_path))
-#     success = tg.transcribe_audio(audio_path, "output_transcript.tsv")
-#     print("✅ Transcription complete!" if success else "❌ No transcription produced.")
