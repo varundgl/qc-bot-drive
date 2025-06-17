@@ -1,9 +1,8 @@
 name: Sync to Hugging Face hub
+
 on:
   push:
     branches: [main]
-
-  # to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -14,7 +13,17 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Push to hub
+
+      - name: Push to varun-d-gl space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://varun-d-gl:$HF_TOKEN@huggingface.co/spaces/varun-d-gl/Recording-QC-Bot main
+        run: |
+          git remote add varun https://varun-d-gl:$HF_TOKEN@huggingface.co/spaces/varun-d-gl/Recording-QC-Bot || true
+          git push --force varun main
+
+      - name: Push to product-ai-gl space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git remote add product https://varun-d-gl:$HF_TOKEN@huggingface.co/spaces/product-ai-gl/Recording-QC-Bot || true
+          git push --force product main
